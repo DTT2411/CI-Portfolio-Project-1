@@ -6,3 +6,13 @@
     --primary-font: "Smooch Sans", sans-serif;
     --secondary-font: "Goldman", sans-serif;
 }
+
+/* Global Styles */
+
+body {
+    font-family: var(--primary-font);
+}
+
+h1,h2,h3 {
+    font-family: var(--secondary-font);
+}
