@@ -1,2 +1,8 @@
 /* Google Font import */
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Smooch+Sans:wght@100..900&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Smooch Sans", sans-serif;
+    --secondary-font: "Goldman", sans-serif;
+}
