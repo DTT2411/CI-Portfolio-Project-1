@@ -20,10 +20,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
+<!-- Classes on body work with mt-auto on footer to push it to bottom of page -->
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="container">
             <!-- <a class="navbar-brand" href="#">Trossachs Ski School</a> -->
             <img src="assets/favicon/ski-icon-128x128.png" alt="logo" width="30" height="24">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -31,12 +32,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#why-us">About Us</a>
+                        <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#lessons">Lessons</a>
@@ -104,6 +105,7 @@
         </section>
     </main>
     <!-- Footer -->
+     <!-- mt-auto class pushes footer to bottom of page -->
     <footer class="mt-auto">
         <div class="container">
             <div class="row">
