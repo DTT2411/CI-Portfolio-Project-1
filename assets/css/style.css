@@ -5,7 +5,6 @@
 :root {
     --primary-font: "Racing Sans One", sans-serif;
     --secondary-font: "Montserrat", cursive;
-    /* --secondary-font: "Space Mono", cursive; */
     --primary-color: #30528f; /* dark blue */
     --secondary-color: #a9aace; /* light blue */
     --highlight-color: #78b131; /* bright green */
@@ -51,6 +50,7 @@ h1,h2,h3 {
 }
 
 /* Reasons section */
+
 #reasons ul {
     list-style-type: none;
 }
@@ -59,10 +59,10 @@ h1,h2,h3 {
     color: var(--secondary-color)
 }
 
-/* Media Queries */
-
-@media screen and (min-width: 992px) {
-
+/* Lessons & Clinics sections */
+#lessons .card-footer, #clinics .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
 }
 
 /* Grid visualisation for testing */
@@ -75,3 +75,30 @@ h1,h2,h3 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+
+/* Media Queries */
+
+/* Medium screens (tablet, 768px and up) and above */
+@media screen and (min-width: 768px) {
+    #lessons .card-body, #clinics .card-body {
+        min-height: 230px;
+    }
+}
+
+/* Large screens (laptop, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* XL screens (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    #lessons .card-body, #clinics .card-body {
+        min-height: 305px;
+    }
+}
+
+/* Large screens (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+
+}
