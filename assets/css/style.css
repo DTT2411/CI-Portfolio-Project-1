@@ -8,8 +8,8 @@
     /* --primary-font: "Space Mono", cursive;
     --secondary-font: "Roboto", sans-serif; */
     --primary-color: #30528f; /* dark blue */
-    --secondary-color: #78b131; /* brown */
-    --highlight-color: #78b131; /* blue */
+    --secondary-color: #78b131; /* bright green */
+    --highlight-color: #78b131; /* bright green */
     --highlight-color-light: #a6b7c5; /* grey blue */
 }
 
@@ -49,6 +49,15 @@ h1,h2,h3 {
 
 #header .lead {
     font-family: var(--secondary-font);
+}
+
+/* Reasons section */
+#reasons ul {
+    list-style-type: none;
+}
+
+#reasons em {
+    color: var(--secondary-color)
 }
 
 /* Media Queries */
