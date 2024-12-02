@@ -9,7 +9,6 @@
     --secondary-color: #866153; /* brown */
     --highlight-color: #285a7e; /* blue */
     --highlight-color-light: #a6b7c5; /* grey blue */
-
 }
 
 /* Global Styles */
@@ -25,6 +24,16 @@ h1,h2,h3 {
 
 .sub-heading-color {
     color: var(--highlight-color)
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width:30px;
 }
 
 /* Grid visualisation for testing */
