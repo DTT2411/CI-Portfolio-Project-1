@@ -7,20 +7,21 @@
     --secondary-font: "Space Mono", cursive;
     /* --primary-font: "Space Mono", cursive;
     --secondary-font: "Roboto", sans-serif; */
-    --primary-color: #006080; /* dark teal */
-    --secondary-color: #866153; /* brown */
-    --highlight-color: #285a7e; /* blue */
+    --primary-color: #30528f; /* dark blue */
+    --secondary-color: #78b131; /* brown */
+    --highlight-color: #78b131; /* blue */
     --highlight-color-light: #a6b7c5; /* grey blue */
 }
 
 /* Global Styles */
 
 body {
-    font-family: var(--primary-font);
+    /* font-family: var(--primary-font); */
+    font-family: var(--secondary-font);
 }
 
 h1,h2,h3 {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     color: var(--primary-color);
     text-transform: uppercase;
 }
@@ -50,6 +51,11 @@ h1,h2,h3 {
     font-family: var(--secondary-font);
 }
 
+/* Media Queries */
+
+@media screen and (min-width: 992px) {
+
+}
 
 /* Grid visualisation for testing */
 
