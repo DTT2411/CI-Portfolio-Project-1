@@ -81,8 +81,9 @@ h1,h2,h3 {
 
 /* Medium screens (tablet, 768px and up) and above */
 @media screen and (min-width: 768px) {
+    /* Aligns bottom of cards when on tablet screens */
     #lessons .card-body, #clinics .card-body {
-        min-height: 230px;
+        min-height: 197px;
     }
 }
 
@@ -93,12 +94,20 @@ h1,h2,h3 {
 
 /* XL screens (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+    /* Aligns bottom of cards when on large screens */
     #lessons .card-body, #clinics .card-body {
         min-height: 305px;
+    }
+
+    /* Aligns footer of cards when on large screens due to word-wrapping */
+    #lessons .card-footer, #clinics .card-footer {
+        min-height: 68px;
     }
 }
 
 /* Large screens (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
-
+    #lessons .card-body, #clinics .card-body {
+        min-height: 255px;
+    }
 }
