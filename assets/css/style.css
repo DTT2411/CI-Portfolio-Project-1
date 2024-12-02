@@ -3,9 +3,11 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Space Mono", cursive;
-    --secondary-font: "Roboto", sans-serif;
-    --primary-color: #993426; /* dark rust */
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Space Mono", cursive;
+    /* --primary-font: "Space Mono", cursive;
+    --secondary-font: "Roboto", sans-serif; */
+    --primary-color: #006080; /* dark teal */
     --secondary-color: #866153; /* brown */
     --highlight-color: #285a7e; /* blue */
     --highlight-color-light: #a6b7c5; /* grey blue */
@@ -20,10 +22,16 @@ body {
 h1,h2,h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color)
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Navbar */
@@ -35,6 +43,13 @@ h1,h2,h3 {
 #navbar .logo {
     width:30px;
 }
+
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
 
 /* Grid visualisation for testing */
 
