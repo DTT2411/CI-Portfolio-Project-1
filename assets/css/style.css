@@ -1,10 +1,15 @@
 /* Google Font import */
-@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Smooch+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* CSS Variables */
 :root {
-    --primary-font: "Smooch Sans", sans-serif;
-    --secondary-font: "Goldman", sans-serif;
+    --primary-font: "Space Mono", cursive;
+    --secondary-font: "Roboto", sans-serif;
+    --primary-color: #993426; /* dark rust */
+    --secondary-color: #866153; /* brown */
+    --highlight-color: #285a7e; /* blue */
+    --highlight-color-light: #a6b7c5; /* grey blue */
+
 }
 
 /* Global Styles */
@@ -15,6 +20,11 @@ body {
 
 h1,h2,h3 {
     font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color)
 }
 
 /* Grid visualisation for testing */
