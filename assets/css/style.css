@@ -49,6 +49,10 @@ h1,h2,h3 {
     font-family: var(--secondary-font);
 }
 
+#header .sub-lead {
+    font-size: 130%;
+}
+
 /* Reasons section */
 
 #reasons ul {
@@ -63,6 +67,31 @@ h1,h2,h3 {
 #lessons .card-footer, #clinics .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
+}
+
+/* Makes card background primary color */
+#lessons .card-body, 
+#lessons .card-footer, 
+#clinics .card-body, 
+#clinics .card-footer 
+{
+    background-color: #30528f;
+}
+
+/* Makes card colour white to contrast with primary colour background */
+#lessons .card-text,
+#clinics .card-text
+{
+    color: #fff;
+}
+
+/* Overwrites bootstrap default white background for seperate elements in */
+#lessons .list-group-item,
+#clinics .list-group-item
+{
+    background-color: #30528f;
+    color: #fff;
+    border: 1px solid var(--secondary-color)
 }
 
 /* Grid visualisation for testing */
@@ -83,7 +112,7 @@ h1,h2,h3 {
 @media screen and (min-width: 768px) {
     /* Aligns bottom of cards when on tablet screens */
     #lessons .card-body, #clinics .card-body {
-        min-height: 197px;
+        min-height: 210px;
     }
 }
 
@@ -107,6 +136,15 @@ h1,h2,h3 {
 
 /* Large screens (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
+
+
+    /* #header img {
+        /* overflow: hidden; */
+        /* width: 800px; 
+        height: 337px; 
+        object-fit: cover;
+    } */
+
     #lessons .card-body, #clinics .card-body {
         min-height: 255px;
     }
