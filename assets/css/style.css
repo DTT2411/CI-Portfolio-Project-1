@@ -77,6 +77,10 @@ h1,h2,h3 {
     color: #fff;
 }
 
+#hero .lead {
+    font-weight: 400;
+}
+
 #hero .sub-lead  {
     /* Keeps lead text size small for up to tablet size */
     font-size: 70%;
