@@ -22,10 +22,17 @@ h1,h2,h3 {
     text-transform: uppercase;
 }
 
-/* All subheadings (e.g. names on cards) are bold and use the secondary colour */
+/* All subheadings (e.g. for lessons and clinics sections) are bold and use the primary colour */
 .sub-heading {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: 600;
+    font-size: 2rem;
+}
+
+/* All names on cards are bold and use the secondary colour */
+.card-title {
+    color: var(--secondary-color);
+    font-weight: bolder;
 }
 
 .section {
