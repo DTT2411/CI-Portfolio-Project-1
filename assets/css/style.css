@@ -22,6 +22,12 @@ h1,h2,h3 {
     text-transform: uppercase;
 }
 
+
+.card-img-top,
+.card-footer:last-child {
+    border-radius: 0;
+}
+
 /* All subheadings (e.g. for lessons and clinics sections) are bold and use the primary colour */
 .sub-heading {
     color: var(--primary-color);
