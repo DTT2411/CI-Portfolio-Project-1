@@ -22,11 +22,12 @@ h1,h2,h3 {
     text-transform: uppercase;
 }
 
-
+/* Removes border radius from all cards */
 .card-img-top,
 .card-footer:last-child {
     border-radius: 0;
 }
+
 
 /* All subheadings (e.g. for lessons and clinics sections) are bold and use the primary colour */
 .sub-heading {
@@ -106,7 +107,8 @@ h1,h2,h3 {
 }
 
 /* Lessons & Clinics sections */
-#lessons .card-footer, #clinics .card-footer {
+#lessons .card-footer, 
+#clinics .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
 }
@@ -127,7 +129,7 @@ h1,h2,h3 {
     color: #fff;
 }
 
-/* Overwrites bootstrap default white background for seperate elements in */
+/* Overwrites bootstrap default white background for seperate elements in card lists */
 #lessons .list-group-item,
 #clinics .list-group-item
 {
