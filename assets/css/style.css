@@ -105,6 +105,10 @@ h1,h2,h3 {
     font-weight: bold;
 }
 
+#reasons div > p {
+    font-style: italic;
+}
+
 /* Lessons & Clinics sections */
 #lessons .card-footer, 
 #clinics .card-footer {
