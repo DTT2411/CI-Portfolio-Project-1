@@ -55,7 +55,7 @@ h1,h2,h3 {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(169, 170, 206, 0.6);
+    background-color: rgba(169, 170, 206, 0.9);
     position: absolute;
     bottom: 30px;
     width: 80%;
