@@ -46,6 +46,14 @@ h1,h2,h3 {
     margin-bottom: 2rem;
 }
 
+.cta-button {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 /* Navbar */
 
 #navbar {
