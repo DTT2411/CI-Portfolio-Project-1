@@ -45,12 +45,31 @@ h1,h2,h3 {
 
 /* Header */
 
-#header .lead {
-    font-family: var(--secondary-font);
+/* Makes the hero image cover the entire header section */
+#hero {
+    height: 500px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
-#header .sub-lead {
-    font-size: 125%;
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(169, 170, 206, 0.6);
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding: 50px 15px;
+}
+
+#hero .lead,
+#hero .sub-lead  {
+    color: #fff;
+}
+
+#hero .sub-lead  {
+    font-size: 70%;
 }
 
 /* Reasons section */
@@ -108,7 +127,15 @@ h1,h2,h3 {
 
 /* Media Queries */
 
-/* Medium screens (tablet, 768px and up) and above */
+/* Small screens (576px and up) */
+@media screen and (min-width: 576px) {
+    #hero .sub-lead  {
+        font-size: 100%;
+    }
+
+}
+
+/* Medium screens (tablet, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Aligns bottom of cards when on tablet screens */
     #lessons .card-body, 
