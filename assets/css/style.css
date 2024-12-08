@@ -176,6 +176,11 @@ h1,h2,h3 {
     color: white;
 }
 
+#contact table {
+    background-color: #30528f;
+    color: white;
+}
+
 /* Grid visualisation for testing */
 
 /* .container, .row {
