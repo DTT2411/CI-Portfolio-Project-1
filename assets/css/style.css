@@ -150,6 +150,29 @@ h1,h2,h3 {
     border: 1px solid var(--secondary-color)
 }
 
+/* Footer / Contact section */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 2rem;
+}
+
+#contact h2,
+#contact h5 {
+    color: var(--secondary-color);
+}
+
+#contact ul {
+    /* Removes bullet points from list */
+    list-style-type: none;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Grid visualisation for testing */
 
 /* .container, .row {
