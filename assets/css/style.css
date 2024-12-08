@@ -170,7 +170,7 @@ h1,h2,h3 {
 
 #contact a {
     text-decoration: none;
-    color: white;
+    color: var(--highlight-color);
 }
 
 /* Grid visualisation for testing */
