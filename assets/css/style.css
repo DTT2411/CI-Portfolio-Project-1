@@ -28,7 +28,6 @@ h1,h2,h3 {
     border-radius: 0;
 }
 
-
 /* All subheadings (e.g. for lessons and clinics sections) are bold and use the primary colour */
 .sub-heading {
     color: var(--primary-color);
@@ -202,17 +201,25 @@ h1,h2,h3 {
 /* Hiring Form */
 
 /* Allows more visible room for comments */
-#hiring-form textarea {
+#hiring textarea {
     min-height: 200px;
 }
 
-#hiring label {
-
+.form-floating > label {
+    overflow-wrap: anywhere;
 }
+
+
+
+/* #hiring label {
+    word-wrap: break-word;
+    width: 200px;
+} */
 
 /* Form Success page */
 #success {
-    margin-top: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 #success-notification {
@@ -221,6 +228,18 @@ h1,h2,h3 {
     border-radius: 1rem;
     padding: 1rem;
 }
+
+/* Testimonials page */
+#testimonials figure {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#testimonials figcaption {
+    color: white;
+}
+
+
 
 
 
@@ -270,6 +289,10 @@ h1,h2,h3 {
     #clinics .card-body {
         min-height: 240px;
     }
+
+    #testimonials figure {
+        min-height: 420px;
+    }
 }
 
 /* XL screens (large desktops, 1200px and up) */
@@ -286,6 +309,10 @@ h1,h2,h3 {
     /* Aligns footer of cards when on large screens due to word-wrapping */
     #lessons .card-footer{
         min-height: 68px;
+    }
+
+    #testimonials figure {
+        min-height: 360px;
     }
 }
 
@@ -306,5 +333,9 @@ h1,h2,h3 {
 
     #clinics .card-body {
         min-height: 328px;
+    }
+
+    #testimonials figure {
+        min-height: 300px;
     }
 }
