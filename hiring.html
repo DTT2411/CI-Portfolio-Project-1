@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
+    <meta name="description"
+        content="Hiring page for Trossachs Ski School where visitors can submit their details to apply for work as instructors.">
+    <meta name="keywords" content="skiing, snowsports, Scotland, Trossachs, sport, exercise">
+    <title>Trossachs Ski School | Hiring</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="128x128" href="assets/favicon/ski-icon-128x128.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/ski-icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/ski-icon-16x16.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<!-- Classes on body work with mt-auto on footer to push it to bottom of page -->
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#">Trossachs Ski School</a> -->
+            <img src="assets/favicon/ski-icon-128x128.png" alt="Trossachs Ski School logo" class="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#lessons">Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#clinics">Clinics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="hiring.html">Hiring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="booking.html" class="btn custom-button ms-lg-3">Book now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container section">
+        <div class="row">
+            <div class="col-12 text-center text-lg-start">
+                <h1 class="display-4">Trossachs Ski School</h1>
+                <p class="my-4">Thank you for your interest in working with our ski school! Please use the form below to
+                    submit your
+                    details and we will get in touch with you after reviewing your application. We are always on the
+                    look-out for new talents instructors. We have a diverse workforce and adhere to inclusive hiring
+                    practices.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hiring" class="container section">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="display-6">Hiring</h2>
+                    <form action="success.html" method="get" id="hiring-form">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-xl-4 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input type="number" class="form-control" id="name" name="name" required>
+                                <div class="form-text">We won't share your details with anyone else.</div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 mb-3">
+                                <label for="gender">Gender</label><br>
+                                <select name="gender" id="gender" form="hiring-form" required>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="non-binary">Non-binary</option>
+                                    <option value="prefer-not-to-say">Prefer not to say</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 mb-3">
+                                <label for="experience">How much teaching experience do you have?</label><br>
+                                <select name="experience" id="experience" form="hiring-form" required>
+                                    <option value="none">None</option>
+                                    <option value="1-4weeks">1-4 weeks</option>
+                                    <option value="4-12weeks">4-12 weeks</option>
+                                    <option value="12-20weeks">12-20 weeks</option>
+                                    <option value="20-40weeks">20-40 weeks</option>
+                                    <option value="40+weeks">40+ weeks</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 mb-3">
+                                <label for="teaching-preference">Do you have a prefered format for teaching?</label>
+                                <div class="teaching-preference" name="teaching-preference">
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="ski-school">Ski School</label>
+                                        <input class="form-check-input" type="checkbox" value="ski-school"
+                                            id="ski-school" name="ski-school">
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="group-lessons">Group Lessons</label>
+                                        <input class="form-check-input" type="checkbox" value="group-lessons"
+                                            id="group-lessons" name="group-lessons">
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="private-lessons">Private Lessons</label>
+                                        <input class="form-check-input" type="checkbox" value="private-lessons"
+                                            id="private-lessons" name="private-lessons">
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="under-18s">Under 18s</label>
+                                        <input class="form-check-input" type="checkbox" value="under-18s" id="under-18s"
+                                            name="under-18s">
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="adults">Adults</label>
+                                        <input class="form-check-input" type="checkbox" value="adults" id="adults"
+                                            name="adults">
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="performance-clinics">Performance
+                                            Clinics</label>
+                                        <input class="form-check-input" type="checkbox" value="performance-clinics"
+                                            id="performance-clinics" name="performance-clinics">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 mb-3">
+                                <label for="arrival-date" class="form-label">What date will you be available
+                                    from?</label>
+                                <input type="date" class="form-control" id="arrival-date" name="arrival-date" required>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4 mb-3">
+                                <label for="arrival-date" class="form-label">What date will you be available
+                                    until?</label>
+                                <input type="date" class="form-control" id="arrival-date" name="arrival-date" required>
+                            </div>
+                            <div class="col-12 form-floating mb-3 my-4">
+                                <textarea class="form-control" placeholder="Leave your qualifications here"
+                                    id="qualifications" maxlength="500" cols="20"></textarea>
+                                <label for="qualifications">Please list relevant qualifications here</label>
+                            </div>
+                            <div class="col-12 form-floating mb-3 my-4">
+                                <textarea class="form-control"
+                                    placeholder="Provide a short introduction about your experience" id="introduction"
+                                    maxlength="1500" cols="20"></textarea>
+                                <label for="introduction">Please provide a short introduction about yourself (200 words
+                                    max)</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn custom-button">Submit</button>
+                    </form>
+                </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <!-- mt-auto class pushes footer to bottom of page -->
+    <footer id="contact" class="mt-auto">
+        <div class="container section">
+            <div class="row">
+                <div class="col-12 text-center my-4">
+                    <h2 class="display-5 sub-heading">Contact Us</h2>
+                </div>
+                <!-- Contact information -->
+                <div class="col-12 col-md-6 col-xl-3 text-center text-md-start">
+                    <h5 class="sub-heading">Contact Information</h5>
+                    <address>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <strong>Trossachs Ski School</strong><br>
+                        14 Glen Finglas Road<br>
+                        Callander<br>
+                        FK17 8HT
+                    </address>
+                    <p><i class="fa-solid fa-phone"></i> 0148 861 0910<br>
+                        <i class="fa-solid fa-envelope"></i> skitrossachs@gmail.com</p>
+                </div>
+                <!-- <div class="social-links">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i>  Instagram</a>
+                    <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i>  Youtube</a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i>  LinkedIn</a>
+                </div> -->
+                <!-- Social media links -->
+                <div class="col-12 col-md-6 col-xl-3 text-center text-md-start">
+                    <h5 class="sub-heading">Social Links</h5>
+                    <ul>
+                        <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Facebook page (opens in new tab)"><i
+                                    class="fa-brands fa-facebook"></i> Facebook</a></li>
+                        <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Instagram page (opens in new tab)"><i
+                                    class="fa-brands fa-square-instagram"></i> Instagram</a></li>
+                        <li><a href="https://youtube.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Youtube page (opens in new tab)"><i
+                                    class="fa-brands fa-youtube"></i> Youtube</a></li>
+                        <li><a href="https://linkedin.com" target="_blank" rel="noopener"
+                                aria-label="Visit our LinkedIn page (opens in new tab)"><i
+                                    class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+                <!-- Opening Times -->
+                <div class="col-12 col-xl-6 text-center text-md-start">
+                    <h5 class="sub-heading">Opening Times</h5>
+                    <table class="table table-primary">
+                        <thead>
+                            <tr>
+                                <th scope="col">Days</th>
+                                <th scope="col">Open</th>
+                                <th scope="col">Close</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Monday - Friday</th>
+                                <td>09:00</td>
+                                <td>18:00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Saturday</th>
+                                <td>11:00</td>
+                                <td>17:00</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sunday</th>
+                                <td>12:00</td>
+                                <td>17:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/3af9805755.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
