@@ -47,12 +47,15 @@ h1,h2,h3 {
 }
 
 .cta-button {
+    background-color: var(--secondary-color);
+    color: white;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
+
 
 /* Navbar */
 
@@ -176,10 +179,15 @@ h1,h2,h3 {
     color: white;
 }
 
-#contact table {
+/* #contact table {
     background-color: #30528f;
     color: white;
+} */
+
+.table {
+    background-color: yellowgreen;
 }
+
 
 /* Grid visualisation for testing */
 
