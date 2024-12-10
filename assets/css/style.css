@@ -208,6 +208,12 @@ h1,h2,h3 {
     padding-left: 25px;
 }
 
+/* Adds margin between bottom of form and footer */
+#booking,
+#hiring {
+    margin-bottom: 70px;
+}
+
 
 /* Form Success page */
 #success {
