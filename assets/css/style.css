@@ -50,9 +50,9 @@ h1,h2,h3 {
     background-color: var(--secondary-color);
     color: white;
     border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 
@@ -179,13 +179,11 @@ h1,h2,h3 {
     color: white;
 }
 
-/* #contact table {
-    background-color: #30528f;
-    color: white;
-} */
 
-.table {
-    background-color: yellowgreen;
+/* Booking Form */
+
+#booking-form textarea {
+    min-height: 200px;
 }
 
 
