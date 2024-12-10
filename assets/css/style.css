@@ -46,7 +46,7 @@ h1,h2,h3 {
 }
 
 
-/* CTA and submit buttonsd */
+/* Custom styling for CTA and submit buttons */
 .custom-button {
     background-color: var(--secondary-color);
     color: white;
@@ -192,15 +192,25 @@ h1,h2,h3 {
 
 
 /* Booking Form */
+/* Adds dashed border to form */
+#booking {
+    background-color: #a9aace;
+    border: 5px dashed var(--primary-color);
+}
 
-/* Allows more visible room for comments */
+/* Allows more visible room in textarea for comments */
 #booking-form textarea {
     min-height: 200px;
 }
 
 /* Hiring Form */
+/* Adds dashed border to form */
+#hiring {
+    background-color: #a9aace;
+    border: 5px dashed var(--primary-color);
+}
 
-/* Allows more visible room for comments */
+/* Allows more visible room in textarea for comments */
 #hiring textarea {
     min-height: 200px;
 }
