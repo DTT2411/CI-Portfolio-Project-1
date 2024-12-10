@@ -189,33 +189,23 @@ h1,h2,h3 {
     color: white;
 }
 
-
-/* Booking Form */
+/* Booking & Hiring forms - styles which apply to both*/
 /* Adds dashed border to form */
-#booking {
-    background-color: #a9aace;
-    border: 5px dashed var(--primary-color);
-}
-
-/* Allows more visible room in textarea for comments */
-#booking-form textarea {
-    min-height: 200px;
-}
-
-/* Hiring Form */
-/* Adds dashed border to form */
+#booking,
 #hiring {
     background-color: #a9aace;
     border: 5px dashed var(--primary-color);
 }
 
 /* Allows more visible room in textarea for comments */
-#hiring textarea {
+#booking-form textarea,
+#hiring-form textarea {
     min-height: 200px;
 }
 
+/* Adds padding to labels inside textareas */
 .form-floating > label {
-    overflow-wrap: anywhere;
+    padding-left: 25px;
 }
 
 
