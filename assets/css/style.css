@@ -46,7 +46,7 @@ h1,h2,h3 {
     margin-bottom: 2rem;
 }
 
-.cta-button {
+.custom-button {
     background-color: var(--secondary-color);
     color: white;
     border: 1px solid black;
@@ -54,6 +54,13 @@ h1,h2,h3 {
     /* justify-content: center; */
     /* align-items: center; */
 }
+
+.custom-button-invert {
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid black;
+}
+
 
 
 
@@ -182,10 +189,22 @@ h1,h2,h3 {
 
 /* Booking Form */
 
+/* Allows more visible room for comments */
 #booking-form textarea {
     min-height: 200px;
 }
 
+/* Booking Success page */
+#success {
+    margin-top: 10rem;
+}
+
+#success-notification {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
 
 /* Grid visualisation for testing */
 
