@@ -204,12 +204,21 @@ h1,h2,h3 {
     margin: 20px 30px;
 }
 
+/* Makes form labels bold and primary colour */
+.form-label {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.form-check-label{
+    color: var(--primary-color);
+}
+
 /* Allows more visible room in textarea for comments */
 #booking-form textarea,
 #hiring-form textarea {
     min-height: 200px;
 }
-
 
 .form-floating > label {
     /* Adds padding to labels inside textareas */
