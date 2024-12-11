@@ -189,6 +189,11 @@ h1,h2,h3 {
     color: white;
 }
 
+/* Overwrites the default colour of the Bootstrap class */
+.table-primary {
+    --bs-table-bg: var(--secondary-color);
+    color: white;
+}
 
 /* Booking & Hiring forms - styles which apply to both*/
 /* Adds dashed border to form */
