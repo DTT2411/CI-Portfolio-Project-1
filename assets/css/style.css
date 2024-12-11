@@ -214,6 +214,7 @@ h1,h2,h3 {
 .form-floating > label {
     /* Adds padding to labels inside textareas */
     padding-left: 25px;
+    padding-right: 25px;
     /* Sets the labels inside the text area to word-wrap */
     white-space: normal;
 }
