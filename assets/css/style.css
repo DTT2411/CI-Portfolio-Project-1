@@ -184,9 +184,9 @@ h1,h2,h3 {
 }
 
 #contact a {
-    /* text-decoration: none; */
-    /* color: var(--highlight-color); */
     color: white;
+    font-size: 150%;
+    padding-right: 10px;
 }
 
 /* Overwrites the default colour of the Bootstrap class */

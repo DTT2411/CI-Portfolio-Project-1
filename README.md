@@ -1,7 +1,7 @@
 # Trossachs Ski School
 
 ## Project Description
-This project is a website developed for a fictional organisation, Trossachs Ski School, which has the primary business goal of attracting new customers and encouraging people to book ski instruction with the school. The site is targeted at ski enthusiasts who are interested in improving their skills with targeted tuition. The site is fully responsive so users can have a positive experience on any device, and it allows them to learn more about the school, the options on offer, and has a clear process for booking.
+This project is a website developed for a fictional organisation, Trossachs Ski School, based in Scotland, which has the primary business goal of attracting new customers and encouraging people to book ski instruction with the school. The site is targeted at ski enthusiasts who are interested in improving their skills with targeted tuition. The site is fully responsive so users can have a positive experience on any device, and it allows them to learn more about the school, the options on offer, and has a clear process for booking.
 
 ## Project Principles
 1. **Mobile-first development:** The website has been designed with responsiveness in mind. All elements and structures were first created to fit mobile screens, with additional styling and classes to ensure responsiveness on larger screens. 
@@ -151,14 +151,24 @@ Up to 1200px <br>
 Over 1200px <br>
 ![Reasons Area Screenshot ](assets/screenshots/screenshot-reasons-large.png)
 
-
-
 #### 4. Homepage lessons section
+WAIT UNTIL I HAVE FIXED BOOKING BUTTON
+
 #### 5. Homepage clinics section
-#### 6. Booking form
-#### 7. Hiring form
-#### 8. Form success page
-#### 9. Testimonials page
+WAIT UNTIL I HAVE FIXED BOOKING BUTTON
+
+#### 6. Footer & contact information section
+
+
+#### 7. Booking form
+
+
+#### 8. Hiring form
+
+#### 9. Form success page
+
+#### 10. Testimonials page
+
 
 ### Features to implement
 1. Our staff page
