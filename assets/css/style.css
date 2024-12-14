@@ -192,12 +192,14 @@ h1,h2,h3 {
 /* Adds margin between opening times table and social media links when stacked vertically on smaller screens */
 #opening-times {
     margin-top: 20px;
+    color: var(--primary-color);
 }
 
-/* Overwrites the default colour of the Bootstrap class */
+/* Overwrites the default font properties of the Bootstrap table class to match colour scheme */
 .table-primary {
     --bs-table-bg: var(--secondary-color);
-    color: white;
+    --bs-table-color: var(--primary-color);
+    font-size: 130%;
 }
 
 /* Booking & Hiring forms - styles which apply to both*/
