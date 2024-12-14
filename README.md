@@ -128,15 +128,37 @@ Priority tags (i.e. "must have", "should have" and "could have") were added to e
 ## Features
 
 ### Existing Features
-1. Navigation bar
-2. Homepage header & hero section
-3. Homepage reasons section
-4. Homepage lessons section
-5. Homepage clinics section
-6. Booking form
-7. Hiring form
-8. Form success page
-9. Testimonials page
+#### 1. Navigation bar
+The navigation bar appears at the top of the screen on all pages and contains links to major areas including the Lessons and Clinics sections on the homepage, as well as links to the Hiring and Booking forms and the Testimonials page. Where appropriate, the `active` class has been used to ensure that the current page is highlighted on the navigation bar. The navigation bar collapses into a drop-down menu on screens with lower than 992px (below desktop size).
+
+Up to 992px <br>
+![NavBar Collapsed Screenshot](assets/screenshots/screenshot-navbar-collapsed.png)
+
+992px+ <br>
+![NavBar Screenshot](assets/screenshots/screenshot-navbar.png)
+
+#### 2. Homepage header & hero section
+Directly below the navigation bar at the home page, a header and hero image area has been created. This area is covered by a responsive, high-quality hero image that stretches to fit the screen size. This image was used as a source for selecting a colour scheme for the website as a whole. The area also contains a title, subtitle and lead text intoducing the school at a glance, and this is imposed over a semi-transparent colour block to make it readable against the image in the background. The font size of the lead text decreases below 768px screen size in order to prevent overflow.
+
+![Hero Area Screenshot](assets/screenshots/screenshot-hero-area.png)
+
+#### 3. Homepage reasons section
+The first element within the main area of the home page is the "Reasons" section, which provide users with several benefits of booking with this ski school. The reasons are kept punchy and concise, one short sentence each, with icons for visual guidance. The reasons section is responsive - on screens below 1200px the items appear stacked vertically, while on larger screens they split into two columns to better utilise space. 
+
+Up to 1200px <br>
+![Reasons Area Screenshot ](assets/screenshots/screenshot-reasons-small.png)
+
+Over 1200px <br>
+![Reasons Area Screenshot ](assets/screenshots/screenshot-reasons-large.png)
+
+
+
+#### 4. Homepage lessons section
+#### 5. Homepage clinics section
+#### 6. Booking form
+#### 7. Hiring form
+#### 8. Form success page
+#### 9. Testimonials page
 
 ### Features to implement
 1. Our staff page
