@@ -1,3 +1,178 @@
+# Trossachs Ski School
+
+## Project Description
+This project is a website developed for a fictional organisation, Trossachs Ski School, which has the primary business goal of attracting new customers and encouraging people to book ski instruction with the school. The site is targeted at ski enthusiasts who are interested in improving their skills with targeted tuition. The site is fully responsive so users can have a positive experience on any device, and it allows them to learn more about the school, the options on offer, and has a clear process for booking.
+
+## Project Principles
+1. **Mobile-first development:** The website has been designed with responsiveness in mind. All elements and structures were first created to fit mobile screens, with additional styling and classes to ensure responsiveness on larger screens. 
+2. **User-centric development:** The user’s experience is taken into consideration at every step in the development process in order to make the end product as convenient and efficient as possible. 
+3. **Accessibility:** Code used within the project is compliant with best practice for accessibility e.g. including alt values on all images, ensuring comments are used appropriately to provide context
+4. **Navigability:** Clear navigation is present on all pages of the site, allowing users to move to different areas within a single click
+5. **Visual hierarchy:** Visual design of the site clearly delineates different elements like headers, footers, forms etc. and is consistent across all pages
+
+## Business Goals
+The primary business goal for the company is to increase the number of bookings they receive through the website. <br>
+A secondary business goal for the company is to utilise the site to attract and hire new staff.
+
+## User Stories
+A series of user stories have been created to facilitate the development of the project. Acceptance criteria and tasks were assigned to each story which allows these to serve as a series of milestones which much be achieved to reach a minimum viable product.<br>
+Priority tags (i.e. "must have", "should have" and "could have") were added to each user story to help prioritise the order in which these were tackled. 
+
+
+### 1. As a holidaymaker on a budget, I want to see a list of the types of lessons available and their prices so that I can determine the best lesson option for my child. (Must Have)
+
+**Acceptance Criteria:**
+- The home page displays a list of the different types of lessons and instruction available, sorted by level.
+- Each item in the list includes the name, price, and a brief description. 
+- The list is responsive and looks good on all devices
+
+**Tasks:**
+- Add an HTML section on the homepage dedicated to lesson types available.
+- Display pricing for different options
+- Style the events using Bootstrap (cards, grid)
+- Populate cards with details
+
+
+### 2. As a local business owner, I would like to be able to quickly identify the contact details and information about the ski school so I can include this in recommendations to my own customers. (Must Have)
+
+**Acceptance Criteria:**
+- The site has a dedicated section for contact details, address and opening hours.
+- This section is visible and accessible from anywhere on the website.
+
+**Tasks:**
+- Develop a section for contact details, address and opening hours 
+- Ensure this section is visible on all pages, adhering to common design standards. 
+
+
+### 3. As a potential booker, I want to see good quality images and descriptions about what is on offer so I can determine whether this is the school I want to commit to. (Must Have)
+
+**Acceptance Criteria**
+- Homepage features a hero image relevant to ski holidays/instructio
+- Engaging descriptions of all lessons and clinics are displayed clearly and concisely 
+- The pages are uncluttered and attractive
+
+**Tasks:**
+- Add high-quality hero image, and images for lesson/clinic cards
+- Embed descriptions about the school and the lessons/clinics on offer within the site content
+- Design and implement homepage layout with prominently featured images and descriptions
+
+### 4. As a holidaymaker, I need a clear and easy-to-use form to book lessons for multiple people so that I can book lessons for our family. (Must Have)
+
+**Acceptance Criteria:** 
+- Add a booking form section to the homepage (or make it a separate page?) with fields for name, email, date and preferred type of instruction. 
+- Accessed via button on main page - Call to Action. 
+- Link the form to a success page to let customers know they have filled it out successfully. 
+- The booking form and success page must be responsive and look good on all devices.
+
+**Tasks:**
+- Create booking.html form section OR page with relevant input fields for name, email, date and a select drop-down list for instruction type.
+- Link output from form to a simple success page confirming form submission. 
+- Utilise Bootstrap grid and classes to make the form responsive on all screen sizes.
+
+### 5. As a holidaymaker, I want to be able to navigate through the site easily on all types of devices so I can make bookings quickly. (Must Have)
+
+**Acceptance Criteria:**
+- Create navigation section within the header for each site page which allows users to click to navigate to various pages/sections, including “Home”, “Hiring”, “Lessons”
+- “Book Now” call to action button
+- When in a particular page, the name of the page stands out compared to other navigation links. Navigation is intuitive. 
+
+**Tasks:**
+- Develop a Bootstrap navbar which is responsive on various screen sizes.
+- Ensure all pages and key sections are easily accessible from anywhere on the site.
+
+### 6. As a holidaymaker looking to book lessons, I want to read testimonials from others who have used the ski school so that I can feel confident when booking. (Should have)
+
+**Acceptance Criteria:** 
+- Website includes a testimonials section on the main page which displays past customer reviews.
+- The testimonials are clearly visible and are presented in a format that is easy to read, with key info (e.g. name, quote)
+
+**Tasks:**
+- Create section on homepage for customer testimonials
+- Style the testimonials using Bootstrap (cards, grid) to ensure responsiveness 
+- Add samples
+
+
+### 7. As a qualified ski instructor, I want to see any employment opportunities and how to apply so that I can secure work with the ski school. (Should have)
+
+**Acceptance Criteria:**
+- Site has a dedicated “Hiring” page which provides information on the type of placements/work currently available
+- Instructors interested in applying can submit their details via form to initiate a job application process
+
+**Tasks:**
+- Develop separate html page for Hiring
+- Create and populate list of work placements open for application using Bootstrap cards
+- Make list responsive
+
+
+### 8. As a solo holidaymaker, I want to see a list of social events or group lessons open to singles so that I can have a good social experience. (Could have)
+
+**Acceptance Criteria:** 
+- The homepage has a dedicated section for social events with relevant details
+
+**Tasks:**
+- Create static section for a list of upcoming events/socials on the homepage
+- Develop list with Bootstrap 
+- Make list responsive
+
+
+### 9. As a physically-impaired skier with specific needs related to the instruction, I want to see a list of the staff and their qualifications to determine whether the school can cater to my needs. (Could have)
+
+**Acceptance Criteria:**
+- Site has a dedicated “Our Staff” section or page which clearly displays the details of individual staff members and their training level.
+- Staff information is laid out in an easily readable format which is responsive on all devices.
+
+**Tasks:**
+- Create separate “Our Staff” page 
+- Make list responsive
+
+## Features
+
+### Existing Features
+1. Navigation bar
+2. Homepage header & hero section
+3. Homepage reasons section
+4. Homepage lessons section
+5. Homepage clinics section
+6. Booking form
+7. Hiring form
+8. Form success page
+9. Testimonials page
+
+### Features to implement
+1. Our staff page
+2. Social events page
+3. Testimonials carousel (potentially amend to include this on homepage rather than separate page)
+4. Key information page
+
+
+## Testing
+
+### Validator Outcomes
+
+### Resolved Bugs
+
+### Unfixed Bugs
+
+### Deployment
+
+
+## Credits
+
+### Content
+Bootstrap was used extensively across the site, both in terms of bootstrap structures (e.g. grid, table, form) copied directly from Bootstrap guidance and customised, as well as the use of general Bootstrap classes (e.g. my-4). Utilisation of bootstrap classes allowed me to reduce the amount of custom CSS styling required. 
+Google Fonts for custom fonts used throughout site. Link to embed code used: 
+Favicons from ??? for browser icons
+Reference to Love Running and Boardwalk Games modules from CI full stack course were used for guidance on general structure and layout.
+W3C HTML & CSS validators
+Icolour pallete
+
+### Media
+Images were sourced from Pexels and Pixabay. All images used within the site are free-use, no royalties.
+Font Awesome for iconography, link to personal kit:
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome David Thomson,
