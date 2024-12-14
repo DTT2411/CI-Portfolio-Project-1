@@ -121,12 +121,6 @@ h1,h2,h3 {
     padding: 0;
 }
 
-#reasons em {
-    /*  */
-    color: var(--secondary-color);
-    font-weight: bold;
-}
-
 /* Makes paragraph text in reasons section italic to fit the benefits titles */
 #reasons div > p {
     font-style: italic;
