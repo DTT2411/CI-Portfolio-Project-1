@@ -189,6 +189,11 @@ h1,h2,h3 {
     padding-right: 10px;
 }
 
+/* Adds margin between opening times table and social media links when stacked vertically on smaller screens */
+#opening-times {
+    margin-top: 20px;
+}
+
 /* Overwrites the default colour of the Bootstrap class */
 .table-primary {
     --bs-table-bg: var(--secondary-color);
@@ -313,12 +318,19 @@ h1,h2,h3 {
 /* Large screens (laptop, 992px and up) */
 @media screen and (min-width: 992px) {
     
+    /* Sets consistent size for clinics cards */
     #clinics .card-body {
         min-height: 240px;
     }
 
+    /* Sets consistent size for all testimonial figures */
     #testimonials figure {
         min-height: 456px;
+    }
+
+    /* Removes margin above opening times table on larger screens */
+    #opening-times {
+        margin-top: 0;
     }
 }
 
@@ -345,14 +357,6 @@ h1,h2,h3 {
 
 /* XXL screens (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
-
-
-    /* #header img {
-        /* overflow: hidden; */
-        /* width: 800px; 
-        height: 337px; 
-        object-fit: cover;
-    } */
 
     #lessons .card-body {
         min-height: 255px;
