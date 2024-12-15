@@ -151,8 +151,20 @@ Up to 1200px <br>
 Over 1200px <br>
 ![Reasons Area Screenshot ](assets/screenshots/screenshot-reasons-large.png)
 
-#### 4. Homepage lessons section
-WAIT UNTIL I HAVE FIXED BOOKING BUTTON
+#### 4. Homepage lessons & clinics sections
+Information about the instruction products on offer from the ski school are featured prominently on the main page. Bootstrap cards have been used to structure these sections, with custom styling applied to ensure they fit with the colour scheme and layout of the site. The cards are displayed responsively, taking up the full width of the screen on mobile, and splitting into two or four columns for medium (768px+) and large (1200+) screens. All cards contain a header image which is relevant to the type of instruction, as well as key information such as pricing, skill level requirement, group size and appropriate age.
+
+Screenshots below are of the Lessons section - the same structure and styling is applied to the Clinics section.
+
+Up to 768px <br>
+![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-large.png)
+
+768px - 1200px
+![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-medium.png)
+
+Over 1200px <br>
+![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-small.png)
+
 
 #### 5. Homepage clinics section
 WAIT UNTIL I HAVE FIXED BOOKING BUTTON
