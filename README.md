@@ -189,13 +189,13 @@ Over 1200px <br>
 ![Booking Form Screenshot - large screens](assets/screenshots/screenshot-booking-large.png)
 
 #### 8. Hiring form
-The hiiring form is accessible via the "Hiring" link in the navigation bar. The structure, styling and responsive properties of the form are consistent with the booking form. There are additional fields in the hiring form including: a drop-down list for the applicant's experience level; a checkbox list for any teaching preferences; an open text entry box for qualifications; and another text entry box for a short introductory statement.
+The hiring form is accessible via the "Hiring" link in the navigation bar. The structure, styling and responsive properties of the form are consistent with the booking form. There are additional fields in the hiring form including: a drop-down list for the applicant's experience level; a checkbox list for any teaching preferences; an open text entry box for qualifications; and another text entry box for a short introductory statement.
 
 ![Hiring Form Screenshot](assets/screenshots/screenshot-hiring.png)
 
 
-
 #### 9. Form success page
+A simple form success page has been designed to 
 
 #### 10. Testimonials page
 
