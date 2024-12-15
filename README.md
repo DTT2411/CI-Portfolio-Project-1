@@ -195,16 +195,27 @@ The hiring form is accessible via the "Hiring" link in the navigation bar. The s
 
 
 #### 9. Form success page
-A simple form success page has been designed to 
+A simple form success page has been designed to make it obvious to the user when their form data has been successfully submitted. A text box containing a short thank you message appears above a button which takes the user back to the homepage. 
+
+![Success Screenshot](assets/screenshots/screenshot-success.png)
 
 #### 10. Testimonials page
+The Testimonials page can be accessed via the relevant link in the navigation bar from anywhere on the site. The page is titled and includes short introductory lead text. Figures and captions have been used to create the testimonials themselves - the customer's comment appears above a hard line break, followed by the customer's name and date of submission. Quote icons have also been used for visual guidance, making it clear that these are direct quotes from other customers. The page is responsive, with the testimonial figures spanning the screen on smaller devices and breaking up into two columns for larger screens. 
 
+Up to 992px <br>
+![Testimonials Page Screenshot - small screens](assets/screenshots/screenshot-testimonials-small.png)
+
+Over 992px <br>
+![Testimonials Page Screenshot - large screens](assets/screenshots/screenshot-testimonials-large.png)
 
 ### Features to implement
-1. Our staff page
-2. Social events page
-3. Testimonials carousel (potentially amend to include this on homepage rather than separate page)
-4. Key information page
+1. **"Our staff" page:** One of the "could-have" features identified during project planning was to include a dedicated page to introducing staff at the ski school. Bootstrap cards and grid could be used to create cards for each staff member and instructor, although I would need to consider how to differentiate these from the cards in the Lessons and Clinics areas. The cards would contain details about the staff member including name, short background description, and (importantly) any qualifications the individual has, in particular any which would allow them to instruct physically impaired clients. 
+
+2. **Social events page:** Another "could-have" feature identified during conception was for a page of social events/sessions run by the ski school, to address needs of users who may be coming to the organisation not only for instruction but for the opportunity to connect with others with similar interests. 
+
+3. **Testimonials carousel:** While the current Testimonials page is functionally sound, after implementation and review I am not completely happy with the appearance - I feel it looks blocky and uninteresting as it stands. One option to liven this element up would be to have a single carousel for testimonials, with controls to move between different testimonials. If I were to implement this, I would probably change the site structure by removing the separate Testimonials page and instead have this as another section on the main page, most likely underneath the Clinics section. 
+
+4. **Key information page:** While this was not established as a potential feature during design, after implementing and reviewing the site, and from comments made by those I have asked to review the site, a dedicated area or page for key information pertaining to the school would be helpful. This would include information that is too wordy/specific to include in the contact/footer area, such as: FAQ on what equipment people should bring vs what they can hire; meeting points for ski school and other classes; emergency contact details; helpful information e.g. where to get lift passes, best restaurants in resort.
 
 
 ## Testing
