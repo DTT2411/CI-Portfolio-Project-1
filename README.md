@@ -89,7 +89,7 @@ Priority tags (i.e. "must have", "should have" and "could have") were added to e
 **Tasks:**
 - Create section on homepage for customer testimonials
 - Style the testimonials using Bootstrap (cards, grid) to ensure responsiveness 
-- Add samples
+- Populate testimonials with sample comments and authors
 
 
 ### 7. As a qualified ski instructor, I want to see any employment opportunities and how to apply so that I can secure work with the ski school. (Should have)
@@ -146,10 +146,10 @@ Directly below the navigation bar at the home page, a header and hero image area
 The first element within the main area of the home page is the "Reasons" section, which provide users with several benefits of booking with this ski school. The reasons are kept punchy and concise, one short sentence each, with icons for visual guidance. The reasons section is responsive - on screens below 1200px the items appear stacked vertically, while on larger screens they split into two columns to better utilise space. 
 
 Up to 1200px <br>
-![Reasons Area Screenshot ](assets/screenshots/screenshot-reasons-small.png)
+![Reasons Area Screenshot - small screens](assets/screenshots/screenshot-reasons-small.png)
 
 Over 1200px <br>
-![Reasons Area Screenshot ](assets/screenshots/screenshot-reasons-large.png)
+![Reasons Area Screenshot - large screens ](assets/screenshots/screenshot-reasons-large.png)
 
 #### 4. Homepage lessons & clinics sections
 Information about the instruction products on offer from the ski school are featured prominently on the main page. Bootstrap cards have been used to structure these sections, with custom styling applied to ensure they fit with the colour scheme and layout of the site. The cards are displayed responsively, taking up the full width of the screen on mobile, and splitting into two or four columns for medium (768px+) and large (1200+) screens. All cards contain a header image which is relevant to the type of instruction, as well as key information such as pricing, skill level requirement, group size and appropriate age.
@@ -157,29 +157,43 @@ Information about the instruction products on offer from the ski school are feat
 Screenshots below are of the Lessons section - the same structure and styling is applied to the Clinics section.
 
 Up to 768px <br>
-![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-small.png)
+![Lessons Area Screenshot - small screens](assets/screenshots/screenshot-lessons-small.png)
 
 768px to 1200px <br>
-![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-medium.png)
+![Lessons Area Screenshot - medium screens](assets/screenshots/screenshot-lessons-medium.png)
 
 Over 1200px <br>
-![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-large.png)
+![Lessons Area Screenshot - large screens](assets/screenshots/screenshot-lessons-large.png)
 
 
 #### 6. Footer & contact information section
 The contact information for the ski school appears in a separate footer section, and this is applied consistently across all pages. The footer contains key contact information including the school's address, email address, phone number, and social media links. A table containing the school's opening times has also been included in this section. Icons have been included beside contact fields for visual guidance, as well clickable icons for the social media accounts. The footer is responsive, with the contact details and opening times stacking vertically on small screens, and horizontally on larger screens for the best utilisation of screen space.
 
 Up to 992px <br>
-![Contact Area Screenshot ](assets/screenshots/screenshot-contact-small.png)
+![Contact Area Screenshot - small screens](assets/screenshots/screenshot-contact-small.png)
 
 Over 992px <br>
-![Contact Area Screenshot ](assets/screenshots/screenshot-contact-large.png)
+![Contact Area Screenshot - large screens](assets/screenshots/screenshot-contact-large.png)
 
 
 #### 7. Booking form
+By clicking one of the CTA "Book Now" buttons on the main page, the user is taken to a separate booking page with a short introduction and a form area. The form has fields which takes key information from the user including their name, contact details, the type of product they wish to book, and the dates between which they wish to receive instruction. There is also an open textarea for any comments or questions which the customer may wish to leave. Custom styling (dashed line, adhering to colour scheme) has been applied to distinguish the form from other elements on the site. The booking form is responsive, spanning over smaller screens and splitting into two and three columns of fields on medium and larger screens respectively. 
 
+Up to 768px <br>
+![Booking Form Screenshot - small screens](assets/screenshots/screenshot-booking-small.png)
+
+768px to 1200px <br>
+![Booking Form Screenshot - medium screens](assets/screenshots/screenshot-booking-medium.png)
+
+Over 1200px <br>
+![Booking Form Screenshot - large screens](assets/screenshots/screenshot-booking-large.png)
 
 #### 8. Hiring form
+The hiiring form is accessible via the "Hiring" link in the navigation bar. The structure, styling and responsive properties of the form are consistent with the booking form. There are additional fields in the hiring form including: a drop-down list for the applicant's experience level; a checkbox list for any teaching preferences; an open text entry box for qualifications; and another text entry box for a short introductory statement.
+
+![Hiring Form Screenshot](assets/screenshots/screenshot-hiring.png)
+
+
 
 #### 9. Form success page
 
