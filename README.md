@@ -129,12 +129,12 @@ Priority tags (i.e. "must have", "should have" and "could have") were added to e
 
 ### Existing Features
 #### 1. Navigation bar
-The navigation bar appears at the top of the screen on all pages and contains links to major areas including the Lessons and Clinics sections on the homepage, as well as links to the Hiring and Booking forms and the Testimonials page. Where appropriate, the `active` class has been used to ensure that the current page is highlighted on the navigation bar. The navigation bar collapses into a drop-down menu on screens with lower than 992px (below desktop size).
+The navigation bar appears at the top of the screen on all pages and contains links to major areas including the Lessons and Clinics sections on the homepage, as well as links to the Hiring and Booking forms and the Testimonials page. Where appropriate, the `active` class has been used to ensure that the current page is highlighted on the navigation bar. The navigation bar collapses into a drop-down menu on screens with lower than 992px (below desktop size). A Call to Action button is also superimposed on the bar in the right corner with custom styling to make this stand out to users. 
 
 Up to 992px <br>
 ![NavBar Collapsed Screenshot](assets/screenshots/screenshot-navbar-collapsed.png)
 
-992px+ <br>
+Over 992px <br>
 ![NavBar Screenshot](assets/screenshots/screenshot-navbar.png)
 
 #### 2. Homepage header & hero section
@@ -157,19 +157,23 @@ Information about the instruction products on offer from the ski school are feat
 Screenshots below are of the Lessons section - the same structure and styling is applied to the Clinics section.
 
 Up to 768px <br>
-![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-large.png)
+![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-small.png)
 
-768px - 1200px
+768px to 1200px <br>
 ![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-medium.png)
 
 Over 1200px <br>
-![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-small.png)
+![Lessons Area Screenshot ](assets/screenshots/screenshot-lessons-large.png)
 
-
-#### 5. Homepage clinics section
-WAIT UNTIL I HAVE FIXED BOOKING BUTTON
 
 #### 6. Footer & contact information section
+The contact information for the ski school appears in a separate footer section, and this is applied consistently across all pages. The footer contains key contact information including the school's address, email address, phone number, and social media links. A table containing the school's opening times has also been included in this section. Icons have been included beside contact fields for visual guidance, as well clickable icons for the social media accounts. The footer is responsive, with the contact details and opening times stacking vertically on small screens, and horizontally on larger screens for the best utilisation of screen space.
+
+Up to 992px <br>
+![Contact Area Screenshot ](assets/screenshots/screenshot-contact-small.png)
+
+Over 992px <br>
+![Contact Area Screenshot ](assets/screenshots/screenshot-contact-large.png)
 
 
 #### 7. Booking form
