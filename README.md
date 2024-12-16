@@ -232,7 +232,7 @@ Over 992px <br>
 [TO BE COMPLETED]
 
 ### Resolved Bugs
-- Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the active class.
+- Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the `active` class.
 - I noticed that on smaller screens, the label for textareas in the hiring and booking form was extending beyond the edge of the text box. This was particularly pronounced on phone size screens. I used DevTools to inspect the label element and was able to identify a `white-space: nowrap` attribute which was causing the issue. I looked this attribute up since I wasn't familiar with it and was able to find an alternative attribute `white-space: normal` which fixed the issue. The textarea labels now word wrap appropriately on smaller screens. 
 
 ### Unfixed Bugs
