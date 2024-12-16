@@ -249,7 +249,7 @@ The direct link to the deployed page can be found here - https://dtt2411.github.
 ## Credits
 
 ### Content
-- Bootstrap was used extensively across the site, both in terms of bootstrap structures (e.g. grid, table, form) copied directly from Bootstrap guidance and customised, as well as the use of general Bootstrap classes (e.g. text-center, my-4). Utilisation of bootstrap classes facilitated a reduction in the CSS styling required. 
+- Bootstrap was used extensively across the site, both in terms of bootstrap structures (e.g. grid, table, form) copied directly from Bootstrap guidance and customised, as well as the use of general Bootstrap classes (e.g. text-center, my-4). Utilisation of bootstrap classes facilitated a reduction in the CSS styling required. https://getbootstrap.com/docs/5.3/getting-started/introduction/
 - Google Fonts for custom fonts used throughout site. Link to embed code used: https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap'
 - Browser favicons were identified and downloaded from https://www.flaticon.com/
 - Reference to Love Running and Boardwalk Games modules from CI full stack course were used for guidance on general structure and layout.
