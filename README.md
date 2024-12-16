@@ -1,7 +1,9 @@
 # Trossachs Ski School
 
 ## Project Description
-This project is a website developed for a fictional organisation, Trossachs Ski School, based in Scotland, which has the primary business goal of attracting new customers and encouraging people to book ski instruction with the school. The site is targeted at ski enthusiasts who are interested in improving their skills with targeted tuition. The site is fully responsive so users can have a positive experience on any device, and it allows them to learn more about the school, the options on offer, and has a clear process for booking.
+This project is a website developed for a fictional organisation, Trossachs Ski School, based in Scotland, which has the primary business goal of attracting new customers and encouraging people to book ski instruction with the school. The site is targeted at ski enthusiasts who are interested in improving their skills with targeted tuition. It aims to provide prospective clients detailed information about the instructional products on offer, and provide a convenient and easy way for them to book according to their preferences.
+
+The site is fully responsive so users can have a positive experience on any device, and it allows them to learn more about the school, the options on offer, and has a clear process for booking.
 
 ## Project Principles
 1. **Mobile-first development:** The website has been designed with responsiveness in mind. All elements and structures were first created to fit mobile screens, with additional styling and classes to ensure responsiveness on larger screens. 
@@ -16,6 +18,7 @@ A secondary business goal for the company is to utilise the site to attract and 
 
 ## User Stories
 A series of user stories have been created to facilitate the development of the project. Acceptance criteria and tasks were assigned to each story which allows these to serve as a series of milestones which much be achieved to reach a minimum viable product.<br>
+
 Priority tags (i.e. "must have", "should have" and "could have") were added to each user story to help prioritise the order in which these were tackled. 
 
 
@@ -227,18 +230,24 @@ Over 992px <br>
 ### Unfixed Bugs
 
 ### Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
+The direct link to the deployed page can be found here - https://dtt2411.github.io/CI-Portfolio-Project-1/.
 
 ## Credits
 
 ### Content
-Bootstrap was used extensively across the site, both in terms of bootstrap structures (e.g. grid, table, form) copied directly from Bootstrap guidance and customised, as well as the use of general Bootstrap classes (e.g. my-4). Utilisation of bootstrap classes allowed me to reduce the amount of custom CSS styling required. 
-Google Fonts for custom fonts used throughout site. Link to embed code used: 
-Favicons from ??? for browser icons
-Reference to Love Running and Boardwalk Games modules from CI full stack course were used for guidance on general structure and layout.
-W3C HTML & CSS validators
-Icolour pallete
+- Bootstrap was used extensively across the site, both in terms of bootstrap structures (e.g. grid, table, form) copied directly from Bootstrap guidance and customised, as well as the use of general Bootstrap classes (e.g. text-center, my-4). Utilisation of bootstrap classes facilitated a reduction in the CSS styling required. 
+- Google Fonts for custom fonts used throughout site. Link to embed code used: https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap'
+- Browser favicons were identified and downloaded from https://www.flaticon.com/
+- Reference to Love Running and Boardwalk Games modules from CI full stack course were used for guidance on general structure and layout.
+- W3C HTML & CSS validators
+- Icolour pallete (https://icolorpalette.com/palette-by-themes/ski) and Coolors (https://coolors.co/) were used for inspiration for colour schemes. Image Color Picker (https://imagecolorpicker.com/) was also used to match the site's colour scheme with the hero image on the homepage section by pulling out a variety of hex values present in the image. 
+- 
 
 ### Media
-Images were sourced from Pexels and Pixabay. All images used within the site are free-use, no royalties.
-Font Awesome for iconography, link to personal kit:
+- Images were sourced from Pexels and Pixabay. All images used within the site are free-use, no royalties.
+- Font Awesome for iconography, link to personal kit: https://kit.fontawesome.com/3af9805755.js 
