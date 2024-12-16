@@ -236,7 +236,7 @@ Over 992px <br>
 - I noticed that on smaller screens, the label for textareas in the hiring and booking form was extending beyond the edge of the text box. This was particularly pronounced on phone size screens. I used DevTools to inspect the label element and was able to identify a `white-space: nowrap` attribute which was causing the issue. I looked this attribute up since I wasn't familiar with it and was able to find an alternative attribute `white-space: normal` which fixed the issue. The textarea labels now word wrap appropriately on smaller screens. 
 
 ### Unfixed Bugs
-[TO BE COMPLETED]
+- Within the Opening Times table in the contact/footer section, on screens below 992px there are gridlines, but above 992px the gridlines seem to disappear. 
 
 ### Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
