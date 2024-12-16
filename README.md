@@ -5,6 +5,8 @@ This project is a website developed for a fictional organisation, Trossachs Ski 
 
 The site is fully responsive so users can have a positive experience on any device, and it allows them to learn more about the school, the options on offer, and has a clear process for booking.
 
+![Website Mockup Screenshot](assets/screenshots/screenshot-mockup.png)
+
 ## Project Principles
 1. **Mobile-first development:** The website has been designed with responsiveness in mind. All elements and structures were first created to fit mobile screens, with additional styling and classes to ensure responsiveness on larger screens. 
 2. **User-centric development:** The user’s experience is taken into consideration at every step in the development process in order to make the end product as convenient and efficient as possible. 
@@ -229,6 +231,8 @@ Over 992px <br>
 ### Validator Outcomes
 
 ### Resolved Bugs
+Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the active class.
+
 
 ### Unfixed Bugs
 
