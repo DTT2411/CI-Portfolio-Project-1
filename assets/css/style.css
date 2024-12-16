@@ -14,6 +14,7 @@
 
 body {
     font-family: var(--secondary-font);
+    padding-top: 55px; /* Adds padding to give space for fixed nav bar at top of page */
 }
 
 h1,h2,h3 {
@@ -41,8 +42,8 @@ h1,h2,h3 {
 }
 
 .section {
-    margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-top: 3rem;
 }
 
 

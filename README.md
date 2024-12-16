@@ -223,6 +223,9 @@ Over 992px <br>
 
 ## Testing
 
+### Manual Testing
+
+
 ### Validator Outcomes
 
 ### Resolved Bugs
@@ -246,7 +249,6 @@ The direct link to the deployed page can be found here - https://dtt2411.github.
 - Reference to Love Running and Boardwalk Games modules from CI full stack course were used for guidance on general structure and layout.
 - W3C HTML & CSS validators
 - Icolour pallete (https://icolorpalette.com/palette-by-themes/ski) and Coolors (https://coolors.co/) were used for inspiration for colour schemes. Image Color Picker (https://imagecolorpicker.com/) was also used to match the site's colour scheme with the hero image on the homepage section by pulling out a variety of hex values present in the image. 
-- 
 
 ### Media
 - Images were sourced from Pexels and Pixabay. All images used within the site are free-use, no royalties.
