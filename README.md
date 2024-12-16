@@ -226,15 +226,16 @@ Over 992px <br>
 ## Testing
 
 ### Manual Testing
-
+[TO BE COMPLETED]
 
 ### Validator Outcomes
+[TO BE COMPLETED]
 
 ### Resolved Bugs
 Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the active class.
 
-
 ### Unfixed Bugs
+[TO BE COMPLETED]
 
 ### Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
