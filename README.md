@@ -130,6 +130,26 @@ Priority tags (i.e. "must have", "should have" and "could have") were added to e
 - Create separate “Our Staff” page 
 - Make list responsive
 
+## Wireframes
+Balsamiq Wireframes software was used during the planning process to establish a general structure for each of the pages and sections of the project. 
+
+While the wireframes helped to inform the structure of the project in early stages, and was generally well adhered to, during development several improvements on the wireframe designs were identified (e.g. formatting, layout and responsiveness of the contact & footer section) and implemented. Screenshots of all wireframes developed for each page and screen size can be seen below.
+
+Homepage <br>
+![Balsamiq Homepage Screenshot](assets/screenshots/screenshot-balsamiq-homepage.png)
+
+Booking page <br>
+![Balsamiq Booking Screenshot](assets/screenshots/screenshot-balsamiq-booking.png)
+
+Hiring page <br>
+![Balsamiq Hiring Screenshot](assets/screenshots/screenshot-balsamiq-hiring.png)
+
+Form success page <br>
+![Balsamiq Success Screenshot](assets/screenshots/screenshot-balsamiq-success.png)
+
+Testimonials page <br>
+![Balsamiq Testimonials Screenshot](assets/screenshots/screenshot-balsamiq-testimonials.png)
+
 ## Features
 
 ### Existing Features
@@ -256,6 +276,7 @@ The direct link to the deployed page can be found here - https://dtt2411.github.
 - W3C HTML & CSS validators
 - Icolour pallete (https://icolorpalette.com/palette-by-themes/ski) and Coolors (https://coolors.co/) were used for inspiration for colour schemes. Image Color Picker (https://imagecolorpicker.com/) was also used to match the site's colour scheme with the hero image on the homepage section by pulling out a variety of hex values present in the image.
 - Amiresponsive (https://ui.dev/amiresponsive) was used to generate the mock-up image for the readme. 
+- Balsamiq Wireframes was used extensively during planning to guide the structure and layout of the website. https://balsamiq.com/ 
 
 ### Media
 - Images were sourced from Pexels and Pixabay. All images used within the site are free-use, no royalties.
