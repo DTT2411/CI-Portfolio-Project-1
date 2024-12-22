@@ -10,9 +10,9 @@ The site is fully responsive so users can have a positive experience on any devi
 ## Project Principles
 1. **Mobile-first development:** The website has been designed with responsiveness in mind. All elements and structures were first created to fit mobile screens, with additional styling and classes to ensure responsiveness on larger screens. 
 2. **User-centric development:** The user’s experience is taken into consideration at every step in the development process in order to make the end product as convenient and efficient as possible. 
-3. **Accessibility:** Code used within the project is compliant with best practice for accessibility e.g. including alt values on all images, ensuring comments are used appropriately to provide context
-4. **Navigability:** Clear navigation is present on all pages of the site, allowing users to move to different areas within a single click
-5. **Visual hierarchy:** Visual design of the site clearly delineates different elements like headers, footers, forms etc. and is consistent across all pages
+3. **Accessibility:** Code used within the project is compliant with best practice for accessibility e.g. including alt values on all images, ensuring comments are used appropriately to provide context.
+4. **Navigability:** Clear navigation is present on all pages of the site, allowing users to move to different areas within a single click.
+5. **Visual hierarchy:** Visual design of the site clearly delineates different elements like headers, footers, forms etc. and is consistent across all pages.
 
 ## Business Goals
 The primary business goal for the company is to increase the number of bookings they receive through the website. <br>
@@ -27,12 +27,12 @@ Priority tags (i.e. "must have", "should have" and "could have") were added to e
 ### 1. As a holidaymaker on a budget, I want to see a list of the types of lessons available and their prices so that I can determine the best lesson option for my child. (Must Have)
 
 **Acceptance Criteria:**
-- The home page displays a list of the different types of lessons and instruction available, sorted by level.
-- Each item in the list includes the name, price, and a brief description. 
+- The home page displays a list of the different types of lessons and instruction available, sorted by level
+- Each item in the list includes the name, price, and a brief description
 - The list is responsive and looks good on all devices
 
 **Tasks:**
-- Add an HTML section on the homepage dedicated to lesson types available.
+- Add an HTML section on the homepage dedicated to lesson types available
 - Display pricing for different options
 - Style the events using Bootstrap (cards, grid)
 - Populate cards with details
@@ -41,18 +41,18 @@ Priority tags (i.e. "must have", "should have" and "could have") were added to e
 ### 2. As a local business owner, I would like to be able to quickly identify the contact details and information about the ski school so I can include this in recommendations to my own customers. (Must Have)
 
 **Acceptance Criteria:**
-- The site has a dedicated section for contact details, address and opening hours.
-- This section is visible and accessible from anywhere on the website.
+- The site has a dedicated section for contact details, address and opening hours
+- This section is visible and accessible from anywhere on the website
 
 **Tasks:**
 - Develop a section for contact details, address and opening hours 
-- Ensure this section is visible on all pages, adhering to common design standards. 
+- Ensure this section is visible on all pages, adhering to common design standards
 
 
 ### 3. As a potential booker, I want to see good quality images and descriptions about what is on offer so I can determine whether this is the school I want to commit to. (Must Have)
 
 **Acceptance Criteria**
-- Homepage features a hero image relevant to ski holidays/instructio
+- Homepage features a hero image relevant to ski holidays/instruction
 - Engaging descriptions of all lessons and clinics are displayed clearly and concisely 
 - The pages are uncluttered and attractive
 
@@ -64,36 +64,36 @@ Priority tags (i.e. "must have", "should have" and "could have") were added to e
 ### 4. As a holidaymaker, I need a clear and easy-to-use form to book lessons for multiple people so that I can book lessons for our family. (Must Have)
 
 **Acceptance Criteria:** 
-- Add a booking form section to the homepage (or make it a separate page?) with fields for name, email, date and preferred type of instruction. 
-- Accessed via button on main page - Call to Action. 
-- Link the form to a success page to let customers know they have filled it out successfully. 
-- The booking form and success page must be responsive and look good on all devices.
+- Add a booking form section to the homepage (or make it a separate page?) with fields for name, email, date and preferred type of instruction
+- Accessed via button on main page - Call to Action
+- Link the form to a success page to let customers know they have filled it out successfully
+- The booking form and success page must be responsive and look good on all devices
 
 **Tasks:**
-- Create booking.html form section OR page with relevant input fields for name, email, date and a select drop-down list for instruction type.
-- Link output from form to a simple success page confirming form submission. 
-- Utilise Bootstrap grid and classes to make the form responsive on all screen sizes.
+- Create booking.html form section OR page with relevant input fields for name, email, date and a select drop-down list for instruction type
+- Link output from form to a simple success page confirming form submission
+- Utilise Bootstrap grid and classes to make the form responsive on all screen sizes
 
 ### 5. As a holidaymaker, I want to be able to navigate through the site easily on all types of devices so I can make bookings quickly. (Must Have)
 
 **Acceptance Criteria:**
 - Create navigation section within the header for each site page which allows users to click to navigate to various pages/sections, including “Home”, “Hiring”, “Lessons”
 - “Book Now” call to action button
-- When in a particular page, the name of the page stands out compared to other navigation links. Navigation is intuitive. 
+- When in a particular page, the name of the page stands out compared to other navigation links. Navigation is intuitive.
 
 **Tasks:**
-- Develop a Bootstrap navbar which is responsive on various screen sizes.
-- Ensure all pages and key sections are easily accessible from anywhere on the site.
+- Develop a Bootstrap navbar which is responsive on various screen sizes
+- Ensure all pages and key sections are easily accessible from anywhere on the site
 
 ### 6. As a holidaymaker looking to book lessons, I want to read testimonials from others who have used the ski school so that I can feel confident when booking. (Should have)
 
 **Acceptance Criteria:** 
-- Website includes a testimonials section on the main page which displays past customer reviews.
+- Website includes a testimonials section on the main page which displays past customer reviews
 - The testimonials are clearly visible and are presented in a format that is easy to read, with key info (e.g. name, quote)
 
 **Tasks:**
 - Create section on homepage for customer testimonials
-- Style the testimonials using Bootstrap (cards, grid) to ensure responsiveness 
+- Style the testimonials using Bootstrap (cards, grid) to ensure responsiveness
 - Populate testimonials with sample comments and authors
 
 
@@ -136,13 +136,13 @@ Balsamiq Wireframes software was used during the planning process to establish a
 While the wireframes helped to inform the structure of the project in early stages, and was generally well adhered to, during development several improvements on the wireframe designs were identified (e.g. formatting, layout and responsiveness of the contact & footer section) and implemented. Screenshots of all wireframes developed for each page and screen size can be seen below.
 
 Significant changes between the structure indicated in the wireframes versus the end product include:
-- Navigation bar items were changed to align to the right side of the bar rather than the left
-- Additional items were added to the navigation bar to help users navigate to lessons and clinics sections, and a link to the Testimonials page was also added
-- A single hero image spanning the full width of the header was implemented, rather than a carousel of different images
-- The details in the footer were compressed (e.g. social media links changed from list to icons and put within the contact details list, same with address) to make the footer less cramped, particularly on smaller screens
-- Split the date fields in the forms into arrival and departure dates since this would be more informative for both booking and hiring applications
-- Final product uses drop-down select menus rather than checkboxes, where possible, in booking and hiring forms to better utilise space
-- Differently styled border established around booking and hiring forms to distionguish these areas from the rest of the site
+- Navigation bar items were changed to align to the right side of the bar rather than the left.
+- Additional items were added to the navigation bar to help users navigate to lessons and clinics sections, and a link to the Testimonials page was also added.
+- A single hero image spanning the full width of the header was implemented, rather than a carousel of different images.
+- The details in the footer were compressed (e.g. social media links changed from list to icons and put within the contact details list, same with address) to make the footer less cramped, particularly on smaller screens.
+- Split the date fields in the forms into arrival and departure dates since this would be more informative for both booking and hiring applications.
+- Final product uses drop-down select menus rather than checkboxes, where possible, in booking and hiring forms to better utilise space.
+- Differently styled border established around booking and hiring forms to distionguish these areas from the rest of the site.
 
 Homepage <br>
 ![Balsamiq Homepage Screenshot](assets/screenshots/screenshot-balsamiq-homepage.png)
@@ -297,8 +297,8 @@ Since none of the warnings were unexpected or any cause for concern, no action w
 
 ### Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
+- In the GitHub repository, navigate to the Settings tab.
+- From the source section drop-down menu, select the Master Branch.
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The direct link to the deployed page can be found here - https://dtt2411.github.io/CI-Portfolio-Project-1/.
@@ -306,18 +306,18 @@ The direct link to the deployed page can be found here - https://dtt2411.github.
 ## Credits
 
 ### Content
-- Bootstrap was used extensively across the site, both in terms of bootstrap structures (e.g. grid, table, form) copied directly from Bootstrap guidance and customised, as well as the use of general Bootstrap classes (e.g. text-center, my-4). Utilisation of bootstrap classes facilitated a reduction in the CSS styling required. https://getbootstrap.com/docs/5.3/getting-started/introduction/
-- Google Fonts for custom fonts used throughout site. Link to embed code used: https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap'
+- Bootstrap was used extensively across the site, both in terms of bootstrap structures (e.g. grid, table, form) copied directly from Bootstrap guidance and customised, as well as the use of general Bootstrap classes (e.g. text-center, my-4). Utilisation of bootstrap classes facilitated a reduction in the CSS styling required. https://getbootstrap.com/docs/5.3/getting-started/introduction/.
+- Google Fonts for custom fonts used throughout site. Link to embed code used: https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap'.
 - Typ.io (https://typ.io/) was used for inspiration on matching fonts for a sporty, active website. 
-- Browser favicons were identified and downloaded from https://www.flaticon.com/
+- Browser favicons were identified and downloaded from https://www.flaticon.com/.
 - Reference to Love Running and Boardwalk Games modules from CI full stack course were used for guidance on general structure and layout.
 - Icolour pallete (https://icolorpalette.com/palette-by-themes/ski) and Coolors (https://coolors.co/) were used for inspiration for colour schemes. 
 - Image Color Picker (https://imagecolorpicker.com/) was used to match the site's colour scheme with the hero image on the homepage section by pulling out a variety of hex values present in the image.
 - Amiresponsive (https://ui.dev/amiresponsive) was used to generate the mock-up image for the readme. 
 - Balsamiq Wireframes (https://balsamiq.com/) was used extensively during planning to guide the structure and layout of the website. 
 - Took guidance from Stackoverflow on how to semantically arrange testimonials section with figures, blockquotes and captions (https://stackoverflow.com/questions/1130565/correct-way-to-mark-up-testimonials-in-html).
-- W3C HTML Validator (https://validator.w3.org/#validate_by_input) was utilised extensively during testing
-- W3C CSS Validator (https://jigsaw.w3.org/css-validator/#validate_by_input) was also used to 
+- W3C HTML Validator (https://validator.w3.org/#validate_by_input) was utilised extensively during testing.
+- W3C CSS Validator (https://jigsaw.w3.org/css-validator/#validate_by_input) was also used during testing.
 - Autoprixer (https://autoprefixer.github.io/) was used to ensure portability of styles across different browsers. 
 
 ### Media
