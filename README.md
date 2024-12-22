@@ -265,15 +265,16 @@ Both manual testing an validator testing were used to identify potential bugs an
 #### HTML
 1. Homepage: No errors.
 2. Booking page:
-    - A stray `/form` tag which had been missed, resolved by deleting the relevant line. 
-    - Duplicate name and ID of the phone number input field due to me copying but not amending, resolved by changing both to `phone`.
+    - *Stray end tag*: A stray `/form` tag which had been missed, resolved by deleting the relevant line. 
+    - *Duplicate ID*: Duplicate name and ID of the phone number input field due to me copying but not amending, resolved by changing both to `phone`.
 3. Hiring page:
-    - Same issue as booking page with the stray `/form` tag and duplicate name/ID of name and phone number inputs, resolved in the same way as above.
-    - Duplicate name and ID of date fields - resolved by splitting into `arrival-date` and `departure-date` respectively.
-    - First child option element of a select element should have an empty value as default, but I had set mine as `value="None"`. Resolved by amending to `value=""`.
+    - *Stray end tag*: Same issue as booking page with the stray `/form` tag and duplicate name/ID of name and phone number inputs, resolved in the same way as above.
+    - *Duplicate ID*: Duplicate name and ID of date fields - resolved by splitting into `arrival-date` and `departure-date` respectively.
+    - *"The first child `option` element of a `select` element with a `required` attribute, and without a size attribute whose value is greater than `1`, must have either an empty `value` attribute or must have no text content."*: This was caused because, prior to testing, the first value was defined as `value="None"`, rather than empty. Resolved by amending to `value=""`.
+    - *"The value of the for attribute of the label element must be the ID of a non-hidden form control"*: This error was thrown up for the teaching preferences checkbox list because a label was being applied to a `div` via the `for` attribute - this only works on `input` elements, not divs. This was resolved by changing the label to a simple `p` element, and adding the `form-label` class to ensure it kept the same styling as other labels in the form. 
 4. Success page: No errors.
 5. Testimonials page: 
-    - Missing end tag for the main div element, resolved by adding a `/div` closing tag before the closing section tag. 
+    - *"Unclosed element `div`"*: Missing end tag for the main div element, resolved by adding a `/div` closing tag before the closing section tag. 
 
 #### CSS
 No bugs reported.
@@ -285,8 +286,7 @@ No bugs reported.
 - I noticed that on smaller screens, the label for textareas in the hiring and booking form was extending beyond the edge of the text box. This was particularly pronounced on phone size screens. I used DevTools to inspect the label element and was able to identify a `white-space: nowrap` attribute which was causing the issue. I looked this attribute up since I wasn't familiar with it and was able to find an alternative attribute `white-space: normal` which fixed the issue. The textarea labels now word wrap appropriately on smaller screens. 
 
 ### Unfixed Bugs
-- "The value of the `for` attribute of the `label` element must be the ID of a non-hidden form control": this error is still being reported for the hiring form html when checking on the W3 Validator. My understanding is that this is occuring because I am trying to label a `div` element, which contains the checkboxes for teaching preference, rather than an input element. 
-- Within the Opening Times table in the contact/footer section, on screens below 992px there are gridlines, but above 992px the gridlines seem to disappear. 
+- All bugs identified during manual and validtor testing were resolved.
 
 ### Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
