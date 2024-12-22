@@ -247,8 +247,9 @@ Over 992px <br>
 
 ## Testing
 
-### Manual Testing
-[TO BE COMPLETED]
+Testing was conducted throughout the development cycle of the project, using the deployed version of the website as this was deployed at a very early stage. DevTools was utilised extensively to facilitate the testing of the site's responsiveness on different screen sizes (phone, tablet, laptop, desktop) in accordance with industry standard breakpoints (https://getbootstrap.com/docs/5.3/layout/breakpoints/#available-breakpoints).
+
+Both manual testing an validator testing were used to identify potential bugs and inefficiencies in the project code.
 
 ### Validator Testing
 
@@ -265,12 +266,17 @@ Over 992px <br>
 5. Testimonials page: 
     - Missing end tag for the main div element, resolved by adding a `/div` closing tag before the closing section tag. 
 
+#### CSS
+No bugs reported.
+3 warnings were reported, although one was a duplicate: <br>
+![CSS Warnings Screenshot](assets/screenshots/screenshot-css-warnings.png)
 
-### Resolved Bugs
+### Resolved Bugs from Manual Testing
 - Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the `active` class.
 - I noticed that on smaller screens, the label for textareas in the hiring and booking form was extending beyond the edge of the text box. This was particularly pronounced on phone size screens. I used DevTools to inspect the label element and was able to identify a `white-space: nowrap` attribute which was causing the issue. I looked this attribute up since I wasn't familiar with it and was able to find an alternative attribute `white-space: normal` which fixed the issue. The textarea labels now word wrap appropriately on smaller screens. 
 
 ### Unfixed Bugs
+- "The value of the `for` attribute of the `label` element must be the ID of a non-hidden form control": this error is still being reported for the hiring form html when checking on the W3 Validator. My understanding is that this is occuring because I am trying to label a `div` element, which contains the checkboxes for teaching preference, rather than an input element. 
 - Within the Opening Times table in the contact/footer section, on screens below 992px there are gridlines, but above 992px the gridlines seem to disappear. 
 
 ### Deployment
