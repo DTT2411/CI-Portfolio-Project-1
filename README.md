@@ -279,13 +279,12 @@ Both manual testing an validator testing were used to identify potential bugs an
 #### CSS
 No bugs reported.
 5 warnings were reported.<br>
-![CSS Warnings Screenshot](assets/screenshots/screenshot-css-warnings.png)
-
-10. Highlights Google Fonts library as external so cannot be checked, can be safely ignored
-24. Pertains to use of CSS variables, can be safely ignored
-29. Pertains to use of CSS variables, can be safely ignored
-102. Result from autoprefixer, can be safely ignored
-103. Result from autoprefixer, can be safely ignored
+![CSS Warnings Screenshot](assets/screenshots/screenshot-css-warnings.png) <br>
+10 - Highlights Google Fonts library as external so cannot be checked, can be safely ignored <br>
+24 - Pertains to use of CSS variables, can be safely ignored <br>
+29 - Pertains to use of CSS variables, can be safely ignored <br>
+102 - Result from autoprefixer, can be safely ignored <br>
+103 - Result from autoprefixer, can be safely ignored <br>
 
 Since none of the warnings were unexpected or any cause for concern, no action was taken to resolve these. 
 
