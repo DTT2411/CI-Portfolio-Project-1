@@ -1,3 +1,11 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
 /* Google Font import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap');
 
@@ -91,7 +99,9 @@ h1,h2,h3 {
 #cover-text {
     /* Final rgba value makes hero image transparent*/
     background-color: rgba(169, 170, 206, 0.9);
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: absolute;
     bottom: 30px;
     width: 70%;
