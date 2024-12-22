@@ -86,7 +86,7 @@
                             </div>
                             <div class="col-12 col-md-6 col-xl-4 mb-3">
                                 <label for="phone" class="form-label">Phone number</label>
-                                <input type="number" class="form-control" id="name" name="name" required>
+                                <input type="number" class="form-control" id="phone" name="phone" required>
                                 <div class="form-text">We won't share your details with anyone else.</div>
                             </div>
                             <div class="col-12 col-md-6 col-xl-4 mb-3">
@@ -95,7 +95,8 @@
                             </div>
                             <div class="col-12 col-md-6 col-xl-4 mb-3">
                                 <label for="gender" class="form-label">Gender</label><br>
-                                <select name="gender" id="gender" form="hiring-form" required>
+                                <select name="gender" id="gender" required>
+                                    <option value="">Select...</option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
                                     <option value="non-binary">Non-binary</option>
@@ -105,8 +106,8 @@
                             <div class="col-12 col-md-6 col-xl-4 mb-3">
                                 <label for="experience" class="form-label">How much teaching experience do you
                                     have?</label><br>
-                                <select name="experience" id="experience" form="hiring-form" required>
-                                    <option value="none">None</option>
+                                <select name="experience" id="experience" required>
+                                    <option value="">Select...</option>
                                     <option value="1-4weeks">1-4 weeks</option>
                                     <option value="4-12weeks">4-12 weeks</option>
                                     <option value="12-20weeks">12-20 weeks</option>
@@ -122,12 +123,12 @@
                             <div class="col-12 col-md-6 col-xl-4 mb-3">
                                 <label for="arrival-date" class="form-label">What date will you be available
                                     until?</label>
-                                <input type="date" class="form-control" id="arrival-date" name="arrival-date" required>
+                                <input type="date" class="form-control" id="departure-date" name="departure-date" required>
                             </div>
                             <div class="col-12 col-md-6 col-xl-4 mb-3">
                                 <label for="teaching-preference" class="form-label">Do you have a prefered format for
                                     teaching?</label>
-                                <div class="teaching-preference" name="teaching-preference">
+                                <div id="teaching-preference">
                                     <div class="form-check">
                                         <label class="form-check-label" for="ski-school">Ski School</label>
                                         <input class="form-check-input" type="checkbox" value="ski-school"
@@ -177,7 +178,6 @@
                         <button type="submit" class="btn custom-button-invert my-4">Submit</button>
                     </form>
                 </div>
-                </form>
             </div>
         </section>
     </main>

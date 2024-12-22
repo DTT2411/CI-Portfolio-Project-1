@@ -250,8 +250,21 @@ Over 992px <br>
 ### Manual Testing
 [TO BE COMPLETED]
 
-### Validator Outcomes
-[TO BE COMPLETED]
+### Validator Testing
+
+#### HTML
+1. Homepage: No errors.
+2. Booking page:
+    - A stray `/form` tag which had been missed, resolved by deleting the relevant line. 
+    - Duplicate name and ID of the phone number input field due to me copying but not amending, resolved by changing both to `phone`.
+3. Hiring page:
+    - Same issue as booking page with the stray `/form` tag and duplicate name/ID of name and phone number inputs, resolved in the same way as above.
+    - Duplicate name and ID of date fields - resolved by splitting into `arrival-date` and `departure-date` respectively.
+    - First child option element of a select element should have an empty value as default, but I had set mine as `value="None"`. Resolved by amending to `value=""`.
+4. Success page: No errors.
+5. Testimonials page: 
+    - Missing end tag for the main div element, resolved by adding a `/div` closing tag before the closing section tag. 
+
 
 ### Resolved Bugs
 - Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the `active` class.
