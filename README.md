@@ -278,8 +278,14 @@ Both manual testing an validator testing were used to identify potential bugs an
 
 #### CSS
 No bugs reported.
-3 warnings were reported, although one was a duplicate: <br>
+5 warnings were reported.<br>
 ![CSS Warnings Screenshot](assets/screenshots/screenshot-css-warnings.png)
+
+10. ???
+24. ???
+29. Duplicate of above
+102. Result from autoprefixer, can be safely ignored
+103. Result from autoprefixer, can be safely ignored
 
 ### Resolved Bugs from Manual Testing
 - Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the `active` class.
@@ -309,7 +315,9 @@ The direct link to the deployed page can be found here - https://dtt2411.github.
 - Amiresponsive (https://ui.dev/amiresponsive) was used to generate the mock-up image for the readme. 
 - Balsamiq Wireframes (https://balsamiq.com/) was used extensively during planning to guide the structure and layout of the website. 
 - Took guidance from Stackoverflow on how to semantically arrange testimonials section with figures, blockquotes and captions (https://stackoverflow.com/questions/1130565/correct-way-to-mark-up-testimonials-in-html).
-- W3C HTML & CSS validators
+- W3C HTML Validator (https://validator.w3.org/#validate_by_input) was utilised extensively during testing
+- W3C CSS Validator (https://jigsaw.w3.org/css-validator/#validate_by_input) was also used to 
+- Autoprixer (https://autoprefixer.github.io/) was used to ensure portability of styles across different browsers. 
 
 ### Media
 - Images were sourced from Pexels (https://www.pexels.com/) and Pixabay (https://pixabay.com/). All images used within the site are free-use, no royalties.
