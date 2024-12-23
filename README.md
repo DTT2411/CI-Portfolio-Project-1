@@ -261,7 +261,11 @@ The Testimonials page can be accessed via the relevant link in the navigation ba
 ## Testing
 Testing was conducted throughout the development cycle of the project, using the deployed version of the website as this was deployed at a very early stage. DevTools was utilised extensively to facilitate the testing of the site's responsiveness on different screen sizes (phone, tablet, laptop, desktop) in accordance with industry standard breakpoints (https://getbootstrap.com/docs/5.3/layout/breakpoints/#available-breakpoints).
 
-Both manual testing an validator testing were used to identify potential bugs and inefficiencies in the project code.
+Both manual testing and validator testing were used to identify potential bugs and inefficiencies in the project code.
+
+### Manual Testing
+- Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the `active` class.
+- I noticed that on smaller screens, the label for textareas in the hiring and booking form was extending beyond the edge of the text box. This was particularly pronounced on phone size screens. I used DevTools to inspect the label element and was able to identify a `white-space: nowrap` attribute which was causing the issue. I looked this attribute up since I wasn't familiar with it and was able to find an alternative attribute `white-space: normal` which fixed the issue. The textarea labels now word wrap appropriately on smaller screens. 
 
 ### Validator Testing
 
@@ -290,10 +294,6 @@ No bugs reported.
 103 - Result from autoprefixer, can be safely ignored <br>
 
 Since none of the warnings were unexpected or any cause for concern, no action was taken to resolve these. 
-
-### Resolved Bugs from Manual Testing
-- Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the `active` class.
-- I noticed that on smaller screens, the label for textareas in the hiring and booking form was extending beyond the edge of the text box. This was particularly pronounced on phone size screens. I used DevTools to inspect the label element and was able to identify a `white-space: nowrap` attribute which was causing the issue. I looked this attribute up since I wasn't familiar with it and was able to find an alternative attribute `white-space: normal` which fixed the issue. The textarea labels now word wrap appropriately on smaller screens. 
 
 ### Unfixed Bugs
 - All bugs identified during manual and validtor testing were resolved.
