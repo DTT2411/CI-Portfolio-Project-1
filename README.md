@@ -293,11 +293,8 @@ Form success page <br>
 Testimonials page <br>
 ![Testimonials page lighthouse test screenshot](assets/screenshots/screenshot-testimonials-lighthouse-test.png)
 
-**Note on Hiring page accessibility issue** <br>
-During automated testing, an accessibility issue raised on the hiring page - lighthouse warned to "eliminate render-blocking resources" which typically refers to stylesheets and scripts delaying the browser's rendering of a page's content. In this case it is causing a delay of approximately 0.3s. However, the only scripts used in the html were for Bootstrap JavaScript and Font Awesome kit, and the only stylesheet being referred to was the main style.css, all of which were deemed to be required for the purposes of the page and should thus be kept.
-
-Error report: <br>
-![Hiring page lighthouse error screenshot](assets/screenshots/screenshot-hiring-lighthouse-error.png)
+**Site-wide lighthouse bug resolutions**
+An accessibility issue was initially highlighted by lighthouse on all pages - I had utilised `h1` and `h2` elements for headers, but had the moved to using `h5` elements for card titles on the homepage and subheadings within the footer. I resolved this by changing all `h5` elements to `h3` and making the appropriate amendments in the stylesheet. This improved accessibility scores up to an acceptable standard for all pages. 
 
 ### Validator Testing
 

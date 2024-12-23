@@ -5,7 +5,6 @@
 * Browsers: last 4 version
 */
 
-
 /* Google Font import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap');
 
@@ -26,10 +25,15 @@ body {
     padding-top: 55px; /* Adds padding to give space for fixed nav bar at top of page */
 }
 
-h1,h2,h3 {
+h1,h2 {
     font-family: var(--primary-font);
     color: var(--primary-color);
     text-transform: uppercase;
+}
+
+h3 {
+    color: var(--primary-color);
+    font-size: 130%;
 }
 
 /* Removes border radius from all cards */
@@ -55,7 +59,6 @@ h1,h2,h3 {
     padding-top: 3rem;
 }
 
-
 /* Custom styling for CTA and submit buttons */
 .custom-button {
     background-color: var(--tertiary-color);
@@ -77,7 +80,6 @@ h1,h2,h3 {
 }
 
 /* Navbar */
-
 #navbar {
     background-color: var(--primary-color);
 }
@@ -86,7 +88,7 @@ h1,h2,h3 {
     width:30px;
 }
 
-/* Header */
+/* Homepage Header */
 
 /* Makes the hero image cover the entire header section */
 #hero {
@@ -124,7 +126,7 @@ h1,h2,h3 {
     font-size: 70%;
 }
 
-/* Reasons section */
+/* Homepage Reasons section */
 
 /* Removes bullet points and indentation from list */
 #reasons ul {
@@ -178,7 +180,7 @@ h1,h2,h3 {
 }
 
 #contact h2,
-#contact h5 {
+#contact h3 {
     color: var(--secondary-color);
 }
 
@@ -280,14 +282,6 @@ h1,h2,h3 {
 
 /* MEDIA QUERIES */
 
-/* Small screens (576px and up) */
-@media screen and (min-width: 576px) {
-    /* #hero .sub-lead  {
-        font-size: 100%;
-    } */
-
-}
-
 /* Medium screens (tablet, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Aligns bottom of cards when on tablet screens */
@@ -336,7 +330,6 @@ h1,h2,h3 {
         min-height: 376px;
     }
 
-    /* Aligns footer of cards when on large screens due to word-wrapping */
     #lessons .card-footer{
         min-height: 68px;
     }
@@ -348,7 +341,7 @@ h1,h2,h3 {
 
 /* XXL screens (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
-
+    /* Aligns bottom of cards when on very large screens */
     #lessons .card-body {
         min-height: 255px;
     }
