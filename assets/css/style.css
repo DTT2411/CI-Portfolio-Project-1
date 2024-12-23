@@ -14,7 +14,8 @@
     --primary-font: "Racing Sans One", sans-serif;
     --secondary-font: "Montserrat", cursive;
     --primary-color: #30528f; /* dark blue */
-    --secondary-color: #a9aace; /* light blue */
+    --secondary-color: #F5F5FA; /* off white */
+    --tertiary-color: #a9aace; /* light blue/lilac */
     --highlight-color: #78b131; /* bright green */
 }
 
@@ -57,7 +58,7 @@ h1,h2,h3 {
 
 /* Custom styling for CTA and submit buttons */
 .custom-button {
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     color: white;
     border: 1px solid black;
 }
@@ -258,7 +259,7 @@ h1,h2,h3 {
 }
 
 #success-notification {
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     color: white;
     border-radius: 1rem;
     padding: 1rem;

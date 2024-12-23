@@ -267,6 +267,28 @@ Both manual testing and validator testing were used to identify potential bugs a
 - Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the `active` class.
 - I noticed that on smaller screens, the label for textareas in the hiring and booking form was extending beyond the edge of the text box. This was particularly pronounced on phone size screens. I used DevTools to inspect the label element and was able to identify a `white-space: nowrap` attribute which was causing the issue. I looked this attribute up since I wasn't familiar with it and was able to find an alternative attribute `white-space: normal` which fixed the issue. The textarea labels now word wrap appropriately on smaller screens. 
 
+### Automated Testing
+During lighthouse testing of the booking form page, an accessibility issue was identified - specifically, the contrast between the labels and background was not high enough for normal text. This was resolved by lightening the secondary colour, creating greater contrast. Upon retesting with lighthouse in the same section, the issue was seen to be resolved. 
+
+There was also an accessibility issue raised on the hiring page - lighthouse warned to "eliminate render-blocking resources" which was caused by stylesheets and scripts. However the only scripts used in the html were for Bootstrap JavaScript and Font Awesome kit, and the only stylesheet being referred to was the main style.css, all of which were deemed to be required for the purposes of the page and should thus be kept.
+
+**Lighthouse testing results by page**
+
+Homepage <br>
+![Homepage lighthouse test screenshot](assets/screenshots/screenshot-homepage-lighthouse-test.png)
+
+Booking page <br>
+![Booking page lighthouse test screenshot](assets/screenshots/screenshot-booking-lighthouse-test.png)
+
+Hiring page <br>
+![Hiring page lighthouse test screenshot](assets/screenshots/screenshot-hiring-lighthouse-test.png)
+
+Form success page <br>
+![Form success page lighthouse test screenshot](assets/screenshots/screenshot-success-lighthouse-test.png)
+
+Testimonials page <br>
+![Testimonials page lighthouse test screenshot](assets/screenshots/screenshot-testimonials-lighthouse-test.png)
+
 ### Validator Testing
 
 #### HTML
@@ -296,7 +318,7 @@ No bugs reported.
 Since none of the warnings were unexpected or any cause for concern, no action was taken to resolve these. 
 
 ### Unfixed Bugs
-- All bugs identified during manual and validtor testing were resolved.
+- Minor accessibility issue (89/100 reported by Lighthouse) on the Hiring page.
 
 ### Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -322,6 +344,7 @@ The direct link to the deployed page can be found here - https://dtt2411.github.
 - W3C HTML Validator (https://validator.w3.org/#validate_by_input) was utilised extensively during testing.
 - W3C CSS Validator (https://jigsaw.w3.org/css-validator/#validate_by_input) was also used during testing.
 - Autoprefixer (https://autoprefixer.github.io/) was used to ensure portability of styles across different browsers. 
+- Used contrast checker (https://webaim.org/resources/contrastchecker/) to check the viability of the colour scheme. 
 
 ### Media
 - Images were sourced from Pexels (https://www.pexels.com/) and Pixabay (https://pixabay.com/). All images used within the site are free-use, no royalties.
