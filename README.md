@@ -337,17 +337,21 @@ The direct link to the deployed page can be found here - https://dtt2411.github.
 
 ## Credits
 
+### Code
+- Reference to Love Running and Boardwalk Games modules from CI full stack course were used for guidance on general structure and layout.
+    - Love Running: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+5/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/
+    - Boardwalk Games: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+BG+1/courseware/21d4dc3fa8f0407a8359ceb1d6fc0c51/c113d413c91d4d789399ce5b1303f2fa/
+- Took guidance from Stackoverflow on how to semantically arrange testimonials section with figures, blockquotes and captions (https://stackoverflow.com/questions/1130565/correct-way-to-mark-up-testimonials-in-html).
+
 ### Content
 - Bootstrap was used extensively across the site, both in terms of bootstrap structures (e.g. grid, table, form) copied directly from Bootstrap initially and sytled with custom CSS, as well as the use of general Bootstrap classes (e.g. text-center, my-4). Utilisation of bootstrap classes facilitated a reduction in the CSS styling required. https://getbootstrap.com/docs/5.3/getting-started/introduction/.
 - Google Fonts for custom fonts used throughout site. Link to embed code used: https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap'.
 - Typ.io (https://typ.io/) was used for inspiration on matching fonts for a sporty, active website. 
 - Browser favicons were identified and downloaded from https://www.flaticon.com/. A Favicon converter (https://favicon.io/favicon-converter/) was used to create appropriately sized icons for different screen sizes.
-- Reference to Love Running and Boardwalk Games modules from CI full stack course were used for guidance on general structure and layout.
 - Icolour pallete (https://icolorpalette.com/palette-by-themes/ski) and Coolors (https://coolors.co/) were used for inspiration for colour schemes. 
 - Image Color Picker (https://imagecolorpicker.com/) was used to match the site's colour scheme with the hero image on the homepage section by pulling out a variety of hex values present in the image.
 - Amiresponsive (https://ui.dev/amiresponsive) was used to generate the mock-up image for the readme. 
 - Balsamiq Wireframes (https://balsamiq.com/) was used extensively during planning to guide the structure and layout of the website. 
-- Took guidance from Stackoverflow on how to semantically arrange testimonials section with figures, blockquotes and captions (https://stackoverflow.com/questions/1130565/correct-way-to-mark-up-testimonials-in-html).
 - W3C HTML Validator (https://validator.w3.org/#validate_by_input) was utilised extensively during testing.
 - W3C CSS Validator (https://jigsaw.w3.org/css-validator/#validate_by_input) was also used during testing.
 - Autoprefixer (https://autoprefixer.github.io/) was used to ensure portability of styles across different browsers. 
