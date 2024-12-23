@@ -148,19 +148,19 @@ Significant changes between the structure indicated in the wireframes versus the
 - Final product uses drop-down select menus rather than checkboxes, where possible, in booking and hiring forms to better utilise space.
 - Differently styled border established around booking and hiring forms to distinguish these areas from the rest of the site.
 
-Homepage <br>
+**Homepage** <br>
 ![Balsamiq Homepage Screenshot](assets/screenshots/screenshot-balsamiq-homepage.png)
 
-Booking page <br>
+**Booking page** <br>
 ![Balsamiq Booking Screenshot](assets/screenshots/screenshot-balsamiq-booking.png)
 
-Hiring page <br>
+**Hiring page** <br>
 ![Balsamiq Hiring Screenshot](assets/screenshots/screenshot-balsamiq-hiring.png)
 
-Form success page <br>
+**Form success page** <br>
 ![Balsamiq Success Screenshot](assets/screenshots/screenshot-balsamiq-success.png)
 
-Testimonials page <br>
+**Testimonials page** <br>
 ![Balsamiq Testimonials Screenshot](assets/screenshots/screenshot-balsamiq-testimonials.png)
 
 ## Features
@@ -169,10 +169,10 @@ Testimonials page <br>
 #### 1. Navigation bar
 The navigation bar appears at the top of the screen on all pages and contains links to major areas including the Lessons and Clinics sections on the homepage, as well as links to the Hiring and Booking forms and the Testimonials page. Where appropriate, the `active` class has been used to ensure that the current page is highlighted on the navigation bar. The navigation bar collapses into a drop-down menu on screens with lower than 992px (below desktop size). A Call to Action button is also superimposed on the bar in the right corner with custom styling to make this stand out to users. 
 
-Up to 992px <br>
+**Up to 992px** <br>
 ![NavBar Collapsed Screenshot](assets/screenshots/screenshot-navbar-collapsed.png)
 
-Over 992px <br>
+**Over 992px** <br>
 ![NavBar Screenshot](assets/screenshots/screenshot-navbar.png)
 
 #### 2. Homepage header & hero section
@@ -183,10 +183,10 @@ Directly below the navigation bar at the home page, a header and hero image area
 #### 3. Homepage reasons section
 The first element within the main area of the home page is the "Reasons" section, which provide users with several benefits of booking with this ski school. The reasons are kept punchy and concise, one short sentence each, with icons for visual guidance. The reasons section is responsive - on screens below 1200px the items appear stacked vertically, while on larger screens they split into two columns to better utilise space. 
 
-Up to 1200px <br>
+**Up to 1200px** <br>
 ![Reasons Area Screenshot - small screens](assets/screenshots/screenshot-reasons-small.png)
 
-Over 1200px <br>
+**Over 1200px** <br>
 ![Reasons Area Screenshot - large screens ](assets/screenshots/screenshot-reasons-large.png)
 
 #### 4. Homepage lessons & clinics sections
@@ -194,36 +194,36 @@ Information about the instruction products on offer from the ski school are feat
 
 Screenshots below are of the Lessons section - the same structure and styling is applied to the Clinics section.
 
-Up to 768px <br>
+**Up to 768px** <br>
 ![Lessons Area Screenshot - small screens](assets/screenshots/screenshot-lessons-small.png)
 
-768px to 1200px <br>
+**768px to 1200px** <br>
 ![Lessons Area Screenshot - medium screens](assets/screenshots/screenshot-lessons-medium.png)
 
-Over 1200px <br>
+**Over 1200px** <br>
 ![Lessons Area Screenshot - large screens](assets/screenshots/screenshot-lessons-large.png)
 
 
 #### 6. Footer & contact information section
 The contact information for the ski school appears in a separate footer section, and this is applied consistently across all pages. The footer contains key contact information including the school's address, email address, phone number, and social media links. A table containing the school's opening times has also been included in this section. Icons have been included beside contact fields for visual guidance, as well clickable icons for the social media accounts. The footer is responsive, with the contact details and opening times stacking vertically on small screens, and horizontally on larger screens for the best utilisation of screen space.
 
-Up to 992px <br>
+**Up to 992px** <br>
 ![Contact Area Screenshot - small screens](assets/screenshots/screenshot-contact-small.png)
 
-Over 992px <br>
+**Over 992px** <br>
 ![Contact Area Screenshot - large screens](assets/screenshots/screenshot-contact-large.png)
 
 
 #### 7. Booking form
 By clicking one of the CTA "Book Now" buttons on the main page, the user is taken to a separate booking page with a short introduction and a form area. The form has fields which takes key information from the user including their name, contact details, the type of product they wish to book, and the dates between which they wish to receive instruction. There is also an open textarea for any comments or questions which the customer may wish to leave. Custom styling (dashed line, adhering to colour scheme) has been applied to distinguish the form from other elements on the site. The booking form is responsive, spanning over smaller screens and splitting into two and three columns of fields on medium and larger screens respectively. 
 
-Up to 768px <br>
+**Up to 768px** <br>
 ![Booking Form Screenshot - small screens](assets/screenshots/screenshot-booking-small.png)
 
-768px to 1200px <br>
+**768px to 1200px** <br>
 ![Booking Form Screenshot - medium screens](assets/screenshots/screenshot-booking-medium.png)
 
-Over 1200px <br>
+**Over 1200px** <br>
 ![Booking Form Screenshot - large screens](assets/screenshots/screenshot-booking-large.png)
 
 #### 8. Hiring form
@@ -242,10 +242,10 @@ A simple form success page has been designed to make it obvious to the user when
 #### 10. Testimonials page
 The Testimonials page can be accessed via the relevant link in the navigation bar from anywhere on the site. The page is titled and includes short introductory lead text. Figures and captions have been used to create the testimonials themselves - the customer's comment appears above a hard line break, followed by the customer's name and date of submission. Quote icons have also been used for visual guidance, making it clear that these are direct quotes from other customers. The page is responsive, with the testimonial figures spanning the screen on smaller devices and breaking up into two columns for larger screens. 
 
-Up to 992px <br>
+**Up to 992px** <br>
 ![Testimonials Page Screenshot - small screens](assets/screenshots/screenshot-testimonials-small.png)
 
-Over 992px <br>
+**Over 992px** <br>
 ![Testimonials Page Screenshot - large screens](assets/screenshots/screenshot-testimonials-large.png)
 
 ### Features to implement
@@ -259,7 +259,6 @@ Over 992px <br>
 
 
 ## Testing
-
 Testing was conducted throughout the development cycle of the project, using the deployed version of the website as this was deployed at a very early stage. DevTools was utilised extensively to facilitate the testing of the site's responsiveness on different screen sizes (phone, tablet, laptop, desktop) in accordance with industry standard breakpoints (https://getbootstrap.com/docs/5.3/layout/breakpoints/#available-breakpoints).
 
 Both manual testing an validator testing were used to identify potential bugs and inefficiencies in the project code.
