@@ -325,7 +325,7 @@ No bugs reported.
 Since none of the warnings were unexpected or any cause for concern, no action was taken to resolve these. 
 
 ### Unfixed Bugs
-- Minor accessibility issue (89/100 reported by Lighthouse) on the Hiring page.
+- All bugs found were resolved.
 
 ### Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
