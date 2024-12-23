@@ -277,7 +277,7 @@ Both manual testing and validator testing were used to identify potential bugs a
 3. Hiring page:
     - *Stray end tag*: Same issue as booking page with the stray `/form` tag and duplicate name/ID of name and phone number inputs, resolved in the same way as above.
     - *Duplicate ID*: Duplicate name and ID of date fields - resolved by splitting into `arrival-date` and `departure-date` respectively.
-    - *"The first child `option` element of a `select` element with a `required` attribute, and without a size attribute whose value is greater than `1`, must have either an empty `value` attribute or must have no text content."*: This was caused because, prior to testing, the first value was defined as `value="None"`, rather than empty. Resolved by amending to `value=""`.
+    - *"The first child `option` element of a `select` element with a `required` attribute, and without a size attribute whose value is greater than `1`, must have either an empty `value` attribute or must have no text content."*: This was caused because, prior to testing, the value of the first option element of the drop-down lists in form was defined as `value="None"`, rather than empty. Resolved by amending to `value=""`.
     - *"The value of the for attribute of the label element must be the ID of a non-hidden form control"*: This error was thrown up for the teaching preferences checkbox list because a label was being applied to a `div` via the `for` attribute - this only works on `input` elements, not divs. This was resolved by changing the label to a simple `p` element, and adding the `form-label` class to ensure it kept the same styling as other labels in the form. 
 4. Success page: No errors.
 5. Testimonials page: 
