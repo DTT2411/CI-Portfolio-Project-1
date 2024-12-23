@@ -141,12 +141,12 @@ While the wireframes helped to inform the structure of the project in early stag
 
 Significant changes between the structure indicated in the wireframes versus the end product include:
 - Navigation bar items were changed to align to the right side of the bar rather than the left.
-- Additional items were added to the navigation bar to help users navigate to lessons and clinics sections, and a link to the Testimonials page was also added.
+- Additional items were added to the navigation bar to help users navigate to lessons and clinics sections, and a link to the Testimonials page was also added after this had been developed.
 - A single hero image spanning the full width of the header was implemented, rather than a carousel of different images.
 - The details in the footer were compressed (e.g. social media links changed from list to icons and put within the contact details list, same with address) to make the footer less cramped, particularly on smaller screens.
 - Split the date fields in the forms into arrival and departure dates since this would be more informative for both booking and hiring applications.
 - Final product uses drop-down select menus rather than checkboxes, where possible, in booking and hiring forms to better utilise space.
-- Differently styled border established around booking and hiring forms to distionguish these areas from the rest of the site.
+- Differently styled border established around booking and hiring forms to distinguish these areas from the rest of the site.
 
 Homepage <br>
 ![Balsamiq Homepage Screenshot](assets/screenshots/screenshot-balsamiq-homepage.png)
