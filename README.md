@@ -264,6 +264,11 @@ Testing was conducted throughout the development cycle of the project, using the
 Both manual testing and validator testing were used to identify potential bugs and inefficiencies in the project code.
 
 ### Manual Testing
+I confirmed through manual testing that the website is responsive on all screen sizes and operates correctly on different browsers such as Chrome, Edge and Safari.
+The navigation bar works correctly, taking the user to the appropriate section or page wherever they are on the site, and ensuring that the current page is highlighted on the bar.
+The booking and hiring forms work correctly, requiring the user to input appropriate data for different fields (i.e. email must contain `@`, phone must contain number, etc.) and upon submitting, the user is brought to the form success page as intended.
+
+Bugs resolved during manual testing:
 - Testimonials page did not appear active on navigation bar when on the page. Simple fix by changing the element with the `active` class.
 - I noticed that on smaller screens, the label for textareas in the hiring and booking form was extending beyond the edge of the text box. This was particularly pronounced on phone size screens. I used DevTools to inspect the label element and was able to identify a `white-space: nowrap` attribute which was causing the issue. I looked this attribute up since I wasn't familiar with it and was able to find an alternative attribute `white-space: normal` which fixed the issue. The textarea labels now word wrap appropriately on smaller screens. 
 
