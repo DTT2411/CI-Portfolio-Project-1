@@ -275,8 +275,6 @@ Bugs resolved during manual testing:
 ### Automated Testing
 During lighthouse testing of the booking form page, an accessibility issue was identified - specifically, the contrast between the labels and background was not high enough for normal text. This was resolved by lightening the secondary colour, creating greater contrast. Upon retesting with lighthouse in the same section, the issue was seen to be resolved. 
 
-There was also an accessibility issue raised on the hiring page - lighthouse warned to "eliminate render-blocking resources" which typically refers to stylesheets and scripts delaying the browser's rendering of a page's content. In this case it is causing a delay of approximately 0.3s. However, the only scripts used in the html were for Bootstrap JavaScript and Font Awesome kit, and the only stylesheet being referred to was the main style.css, all of which were deemed to be required for the purposes of the page and should thus be kept.
-
 **Lighthouse testing results by page**
 
 Homepage <br>
@@ -293,6 +291,12 @@ Form success page <br>
 
 Testimonials page <br>
 ![Testimonials page lighthouse test screenshot](assets/screenshots/screenshot-testimonials-lighthouse-test.png)
+
+**Note on Hiring page accessibility issue** <br>
+During automated testing, an accessibility issue raised on the hiring page - lighthouse warned to "eliminate render-blocking resources" which typically refers to stylesheets and scripts delaying the browser's rendering of a page's content. In this case it is causing a delay of approximately 0.3s. However, the only scripts used in the html were for Bootstrap JavaScript and Font Awesome kit, and the only stylesheet being referred to was the main style.css, all of which were deemed to be required for the purposes of the page and should thus be kept.
+
+Error report: <br>
+![Hiring page lighthouse error screenshot](assets/screenshots/screenshot-hiring-lighthouse-error.png)
 
 ### Validator Testing
 
