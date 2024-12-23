@@ -293,8 +293,8 @@ Form success page <br>
 Testimonials page <br>
 ![Testimonials page lighthouse test screenshot](assets/screenshots/screenshot-testimonials-lighthouse-test.png)
 
-**Site-wide lighthouse bug resolutions**
-An accessibility issue was initially highlighted by lighthouse on all pages - I had utilised `h1` and `h2` elements for headers, but had the moved to using `h5` elements for card titles on the homepage and subheadings within the footer. I resolved this by changing all `h5` elements to `h3` and making the appropriate amendments in the stylesheet. This improved accessibility scores up to an acceptable standard for all pages. 
+**Site-wide lighthouse bug resolutions** <br>
+An accessibility issue was initially highlighted by lighthouse on all pages - I had utilised `h1` and `h2` elements for headers, but had the moved to using `h5` elements for card titles on the homepage and subheadings within the footer, rather than using `h3` in accordance with best practice. I resolved this by changing all `h5` elements to `h3` and making the appropriate amendments in the stylesheet. This improved accessibility scores up to an acceptable standard for all pages. 
 
 ### Validator Testing
 
