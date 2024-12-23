@@ -23,6 +23,11 @@ A series of user stories have been created to facilitate the development of the 
 
 Priority tags (i.e. "must have", "should have" and "could have") were added to each user story to help prioritise the order in which these were tackled. 
 
+## Project Board
+The project board functionality on GitHub was used extensively throughout the planning and development of the project. GitHub allows project managers to establish a series of tasks (with each task typically referring to one feature of the project) and ascribe priority level to each of these tasks. This prioritisation allowed me to focus on specific key features over others during the development process, and also helped to identify the point at which a minimum viable product was achieved. 
+
+Link to project board: 
+
 
 ### 1. As a holidaymaker on a budget, I want to see a list of the types of lessons available and their prices so that I can determine the best lesson option for my child. (Must Have)
 
